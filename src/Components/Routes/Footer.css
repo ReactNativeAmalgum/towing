@@ -1,15 +1,17 @@
-.social-cont{
-    gap:20px !important;
-    display: flex;
+.social-cont {
+  gap: 20px !important;
+  display: flex;
 }
-.social-icon{
-    font-size: 18px;
+.social-icon {
+  font-size: 18px;
+  color: #ff0000 !important;
+
 }
-.greylinks a{
-    text-decoration: none;
+.greylinks a {
+  text-decoration: none;
 }
-.custom-small-teaser{
-    display: flex;
-    flex-direction: row !important;
-    align-items: center;
+.custom-small-teaser {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
 }
