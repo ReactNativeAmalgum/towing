@@ -9,7 +9,7 @@
   }
   .dropdown{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
   .navdropdown span {
@@ -43,4 +43,13 @@
 .container-fluid button{
   background-color: white !important;
 
+}
+
+.dropdown-toggle::after{
+  font-size: 24px !important;
+  color: aliceblue;
+}
+.basic-nav-dropdown{
+  display: flex;
+  align-items: baseline;
 }
