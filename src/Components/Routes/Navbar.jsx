@@ -31,9 +31,28 @@ function Header() {
               About
             </NavLink>
 
-            <NavLink to="/service" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
-              Services
-            </NavLink>
+            <NavDropdown
+              title={
+                <span style={{color:'white',fontWeight:700,fontSize:18,}} className={location.pathname.startsWith('/service') ? 'link active' : 'link'}>
+                  Services
+                </span>
+              }
+              id="basic-nav-dropdown"
+              className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
+            >
+              {serviceDetail.map((s, i) => (
+                <NavDropdown.Item key={i}>
+                  {/* Wrap Link properly inside NavDropdown.Item */}
+                  <Link
+                    className={`linkdeco ${location.pathname === `/service/${s.id}` ? 'active' : ''}`}
+                    to={`/service/${s.id}`}
+                  >
+                    {s.title}
+                  </Link>
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
+
             <NavLink to="/gallery" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
               Gallery
             </NavLink>

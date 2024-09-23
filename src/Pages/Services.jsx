@@ -51,6 +51,7 @@ export default function Services() {
               <div className="p-2 service-img-cont ">
                 <img
                   src={serviceF.img1}
+                  style={{objectFit:'cover'}}
                   alt="Grid Image 1"
                   className='service-img '
                 />
