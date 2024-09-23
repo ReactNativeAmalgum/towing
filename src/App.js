@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Gallery from './Pages/Gallery.jsx'
+import Service from './Pages/Services.jsx'
+import Contact from './Pages/Contact.jsx'
+import Navbar from './Components/Routes/Navbar.jsx'
+import Footer from './Components/Routes/Footer.jsx'
 
-function App() {
+export default function App() {
+  const NotFound = () => {
+    return <h2>404 - Page Not Found</h2>;
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/service' element={<Service />} />
+          <Route path='/service/:id' element={<Service />} />
 
-export default App;
+          <Route path='/contact' element={<Contact />} />
+
+          <Route path='*' element={<NotFound />} /> {/* Catch-all route for 404 */}
+
+        </Routes>
+        <Footer />
+      </>
+    </Router>
+  )
+}

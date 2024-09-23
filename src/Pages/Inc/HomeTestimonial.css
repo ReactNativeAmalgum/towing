@@ -1,0 +1,31 @@
+.ds.background_cover.page_testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text within blockquotes */
+}
+
+.container {
+    max-width: 800px; /* Optional: set a max width for the container */
+}
+
+blockquote {
+    display: inline-block; /* Allow blockquotes to be centered */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Center the blockquote */
+}
+
+.item-meta {
+    margin-top: 10px;
+}
+
+
+
+
+.swiper-button-prev, .swiper-button-next{
+    color:white !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 28px !important;
+}

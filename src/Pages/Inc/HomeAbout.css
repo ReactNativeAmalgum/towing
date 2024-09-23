@@ -1,0 +1,21 @@
+
+.checkList-icon-cont{
+    flex-direction: row; 
+    /* gap: 10px;  */
+    display: flex;
+    align-items: center;
+}
+
+.detail-padding{
+    padding-left: 10px !important;
+}
+.custom-col{
+    width: auto !important;
+}
+
+@media(max-width:1200px){
+    .custom-homeabout-row{
+        display: flex  !important;
+        flex-direction: column !important;
+    }
+}

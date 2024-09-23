@@ -1,0 +1,50 @@
+import React from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom'; // Import NavLink
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import './Navbar.css';
+import serviceDetail from '../Inc/ServiceDetail';
+import { NavDropdown } from 'react-bootstrap';
+
+function Header() {
+  const location = useLocation();
+
+  return (
+    <Navbar expand="lg" className="navbar-cont">
+      <Container fluid>
+        <Navbar.Brand href="#" style={{ paddingLeft: 50 }}>
+          <img
+            src="http://moderntowing.in/wp-content/uploads/2023/01/IMG-20230103-WA00001.jpg"
+            style={{ width: 100 }}
+            alt="Logo"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav className="mx-auto my-2 my-lg-0" navbarScroll>
+            {/* Use NavLink with the `isActive` callback */}
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
+              Home
+            </NavLink>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
+              About
+            </NavLink>
+
+            <NavLink to="/service" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
+              Services
+            </NavLink>
+            <NavLink to="/gallery" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
+              Gallery
+            </NavLink>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
+              Contact Us
+            </NavLink>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default Header;
