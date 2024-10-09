@@ -10,7 +10,7 @@ const HomeBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = {
-    interval: 3000, // Slide interval
+    interval: 2000, // Slide interval
     pause: 'hover', // Pause on hover
     controls: true, // Show controls if needed
     indicators: true, // Show indicators if needed
