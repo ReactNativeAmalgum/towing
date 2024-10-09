@@ -30,14 +30,7 @@
 }
 .custom-homefeatuer-cont{
   flex-direction: row;
-  display: flex;
+  /* display: flex; */
 }
 
-@media (max-width: 1024px) {
 
-
-    .custom-homefeatuer-cont{
-        width: min-content;
-    }
-  }
-  

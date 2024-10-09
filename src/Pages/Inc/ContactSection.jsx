@@ -132,26 +132,26 @@ export default function ContactSection() {
                                 <FaMapMarkerAlt className="highlight fa fa-map-marker" />
 
                             </div>
-                            <div className="media-body">2551 Alfred Drive Brooklyn, NY</div>
+                            <div className="media-body"> Shop no 2 om sai darshan building C D Barfiwala road juhu cross lane andheri west mumbai 400058</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
                                 <MdEmail className="highlight fa fa-envelope" />
                             </div>
-                            <div className="media-body">support@thejustice.com</div>
+                            <div className="media-body"> info@moderntowing.in</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
-                                <FaPhoneAlt className="highlight fa fa-phone" />
-                            </div>
-                            <div className="media-body">718-250-4467</div>
+                                <FaPhoneAlt className="highlight fa fa-phone" /> 
+                            </div> 
+                            <div className="media-body">9820849090</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
 
                                 <FaClock className="highlight fa fa-clock-o" />
                             </div>
-                            <div className="media-body">24 hours a day, 7 days a week</div>
+                            <div className="media-body"> 24 hours a day, 7 days a week</div>
                         </div>
                     </div>
                     {/*.col-* */}

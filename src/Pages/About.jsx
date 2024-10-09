@@ -2,6 +2,8 @@ import React from 'react'
 import './Service.css'
 import './About.css'
 import { FaCheck, FaLongArrowAltRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import galleryData from '../Components/Assets/galleryData'
 export default function About() {
   return (
     <>
@@ -25,24 +27,25 @@ export default function About() {
           {/* First Column with a Card */}
           <div className="col-12 col-md-6 custom-padding" style={{ paddingTop: 0, padding: 0 }}>
             <p className='speacial-para'>
-              We offer a full range of garage services to vehicle owners located in Tucson area. All mechanic services are performed by highly qualified mechanics. We can handle any car problem.
-
+              Since 2004, we’ve been providing reliable towing and vehicle transport services for all types of vehicles, from cars to heavy-duty trucks. Our experienced team uses the latest equipment to ensure safe and efficient service. Trust us for professional and timely assistance, every time.
 
             </p>
             <h4>Why Choose Us</h4>
             <p>
-              Quisque a nisl id sem sollicitudin volutpat. Cras et commodo quam, vel congue ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis venenatis neque. Donec volutpat tellus lobortis mi ornare eleifend. Fusce eu nisl ut diam ultricies accumsan. Integer lobortis vestibulum nunc id porta. Curabitur aliquam arcu sed ex dictum, a facilisis urna porttitor. Fusce et mattis nisl. Sed iaculis libero consequat justo auctor iaculis. Vestibulum sed ex et magna tristique bibendum. Sed hendrerit neque nec est suscipit, id faucibus dolor convallis.
-            </p>
+              Our commitment to excellence sets us apart in the towing industry. We prioritize your safety and peace of mind by ensuring that every vehicle, whether a car, motorcycle, or truck, is handled with the utmost care by our highly trained professionals. With state-of-the-art equipment and technology, we provide efficient and reliable towing services tailored to your needs. We understand that emergencies can happen at any time, which is why we are available 24/7 to assist you. Our dedication to customer satisfaction drives us to go above and beyond, ensuring you receive the best service possible. Choose us for dependable, quality towing that you can trust.            </p>
             <div className='about-check-cont'>
               <ul>
-                <li><FaCheck /> {' '}Fusce justo risus placerat in risus eget tincidunt consequat elit.</li>
-                <li><FaCheck /> {' '}Nunc fermentum sem sit amet dolor laoreet placerat.</li>
-                <li><FaCheck /> {' '}Nullam rhoncus dictum diam quis ultrices.</li>
-                <li><FaCheck /> {' '}Integer quis Quisque tristique neque arcu ut venenatis felis malesuada et.Service is good</li>
+                <li><FaCheck /> {' '} Our trained professionals ensure your vehicle is handled with care.</li>
+                <li><FaCheck /> {' '}We use the latest technology for efficient towing services.</li>
+                <li><FaCheck /> {' '} Our team is ready to assist you 24/7, day or night..</li>
+                <li><FaCheck /> {' '}We strive to exceed your expectations with every service.</li>
               </ul>
             </div>
             <div className='wpb_wrapper'>
-<span>OUR SERVICES</span>
+              <Link style={{ textDecoration: 'none' }} onClick={() => window.scrollTo(0, 0)} to="/contact" >
+                <span style={{ color: 'white', }}>OUR SERVICES</span>
+              </Link>
+
             </div>
           </div>
 
@@ -51,7 +54,7 @@ export default function About() {
             <div className="d-flex flex-wrap">
               <div className="p-2 about-img-cont ">
                 <img
-                  src="https://ustow.com/wp-content/uploads/2020/07/truck-16-2-scaled.jpg"
+                  src={galleryData.CAR12}
                   alt="Grid Image 1"
                   className='about-img '
                 />
@@ -61,14 +64,14 @@ export default function About() {
               <div className='container custom-img-cont custom-padding' style={{ padding: 0 }}>
                 <div className="p-2 about-img2-cont">
                   <img
-                    src="https://th.bing.com/th/id/OIP.oqa7G6c51hPDj5YYm4UaBwHaG0?rs=1&pid=ImgDetMain"
+                    src={galleryData.CAR14}
                     alt="Grid Image 1"
                     className='about-img'
                   />
                 </div>
                 <div className="p-2 about-img2-cont">
                   <img
-                    src="https://s3-media0.fl.yelpcdn.com/bphoto/EPr8-DxFHVTDT9ecEZZgdw/o.jpg"
+                    src={galleryData.CAR9}
                     alt="Grid Image 1"
                     className='about-img'
                   />

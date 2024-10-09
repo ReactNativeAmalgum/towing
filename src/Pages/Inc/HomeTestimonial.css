@@ -5,9 +5,9 @@
     text-align: center; /* Center text within blockquotes */
 }
 
-.container {
-    max-width: 800px; /* Optional: set a max width for the container */
-}
+/* .container {
+    max-width: 800px; 
+} */
 
 blockquote {
     display: inline-block; /* Allow blockquotes to be centered */

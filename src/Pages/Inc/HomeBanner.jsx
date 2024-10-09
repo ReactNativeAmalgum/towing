@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Banner.css";
 import car from '../../Components/Assets/porsche.jpg'
+import galleryData from "../../Components/Assets/galleryData";
 
 const HomeBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,14 +26,14 @@ const HomeBanner = () => {
     },
     {
       id: 2,
-      img: car,
+      img: galleryData.CAR7,
       text: "we provide highest quality",
       text1: "towing services",
       text2: "Fast, courteous and inexpensive towing and roadside assistance in San Diego.",
     },
     {
       id: 3,
-      img: car,
+      img: galleryData.BIKE4,
       text: "we provide highest quality ",
       text1: "towing services",
       text2: "Fast, courteous and inexpensive towing and roadside assistance in San Diego.",

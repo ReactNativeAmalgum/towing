@@ -22,14 +22,9 @@ export default function HomeJoinTeam() {
                                     <p className="small-text">Fast and Courteous specialists</p>
                                     <hr className="divider_30_3 zebra_bg" />
                                     <p className="topmargin_90 bottommargin_90 grey">
-                                        Doner hamburger elit magna fatback salami. Picanha ad
-                                        reprehenderit anim pancetta alcatra ham tempor meatloaf shankle
-                                        do sunt drumstick. Venison bresaola laboris, jowl do labore
-                                        pastrami magna voluptate fatback sed cow. In beef ribs shankle
-                                        hamburger beef, ea turkey cupim venison Jowl pig ut biltong sint
-                                        do capicola ham.
+                                    Get in touch with us for reliable and prompt towing services. Whether you need assistance on the road or have inquiries about our specialized services, we’re just a call or message away. Reach out today and stay connected for updates and support!
                                     </p>
-                                    <a href="#" className="theme_button">
+                                    <a style={{textDecoration:'none'}} href="/contact" className="theme_button">
                                         Apply today
                                     </a>
                                 </div>
@@ -172,6 +167,7 @@ export default function HomeJoinTeam() {
                                                 id="submit"
                                                 name="submit"
                                                 className="theme_button color1"
+                                                style={{color:'red'}}
                                             >
                                                 Submit now
                                             </button>

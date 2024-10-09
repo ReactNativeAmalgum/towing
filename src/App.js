@@ -21,10 +21,8 @@ export default function App() {
           <Route path='/about' element={<About />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/service' element={<Service />} />
-          <Route path='/service/:id' element={<Service />} />
-
           <Route path='/contact' element={<Contact />} />
-
+          <Route path="/service/:slug" element={<Service />} />
           <Route path='*' element={<NotFound />} /> {/* Catch-all route for 404 */}
 
         </Routes>

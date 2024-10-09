@@ -27,7 +27,10 @@ function GallerySection() {
   const interiorWorkContent = [
     {
       descp1:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Duis porta nulla faucibus condimentum maecenas vulputate fermentum aptent. Class class metus suscipit montes vel pharetra.",
+        "Welcome to our gallery, where you can explore a diverse collection of images and videos showcasing our wide range of towing services. Here, you’ll find high-quality photos of various vehicles we have transported, including cars, motorcycles, trucks, and luxury vehicles. Each image captures our commitment to safety and professionalism, illustrating how we handle every towing job with precision and cared.",
+        descp2:" Our gallery highlights not only the vehicles we tow but also the advanced equipment we use to ensure efficient service. From flatbed trucks to specialized carriers for luxury cars, each photo reflects our dedication to maintaining the highest standards in the towing industry. You'll see our skilled team in action, demonstrating their expertise in various scenarios, whether it’s a routine tow or an emergency situation.",
+        descp3:'In addition to images, we also feature videos that showcase the towing process. Watch as our professionals safely load and transport vehicles, providing you with a behind-the-scenes look at how we operate. These videos highlight our techniques and the safety measures we take to ensure the protection of your vehicle during transit.',
+        descp4:'We believe that transparency and showcasing our work are essential to building trust with our customers. Our gallery serves as a testament to our experience and reliability in the towing industry, reinforcing our commitment to providing top-notch service. Feel free to browse through our collection, and if you have any questions or need assistance, don’t hesitate to reach out to us. We’re here to help with all your towing needs!',
     },
 
 
@@ -63,9 +66,19 @@ function GallerySection() {
                 {interiorWorkContent.map((item, index) => (
                   <p key={index} className="interior-work-paragraph">
                     {item.descp1}
+                    {item.descp2}
                   </p>
                 ))}
               </div>
+              <div className="interior-work-container">
+                {interiorWorkContent.map((item, index) => (
+                  <p key={index} className="interior-work-paragraph">
+                    {item.descp3}
+                    {item.descp4}
+                  </p>
+                ))}
+              </div>
+
               <ul style={{ marginBottom: '5%' }} className="gallery-filter">
                 <li
                   data-filter="all"

@@ -1,0 +1,20 @@
+.custom-homefeature-row{
+    padding:30px
+}
+@media (max-width: 1024px) {
+
+
+    .custom-homefeatuer-cont {
+        /* width: min-content; */
+    }
+}
+
+@media(max-width:769px) {
+
+    .teaser, .counter {
+        /* font-size: 22px; */
+    }
+    .teaser_icon, .counter{
+        /* font-size: 48px; */
+    }
+}

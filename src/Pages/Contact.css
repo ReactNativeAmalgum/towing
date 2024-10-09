@@ -35,3 +35,7 @@ strong {
   align-items: center;
   justify-content: center;
 }
+
+.small-teaser{
+  gap:5px;
+}

@@ -14,12 +14,13 @@
 .service-img-cont {
   height: 450px;
   width: 100%;
+
+  border-radius: 10px;
   flex-wrap: wrap;
 }
 .service-img-cont img {
   height: 100%;
-  width: 100%;
-
+  width: 100%; 
   border-radius: 10px;
 }
 .custom-service-cont {
@@ -129,4 +130,21 @@
 .service-check-cont li svg {
     margin-right: 10px; /* Space between icon and text */
     color: #ff0000; /* Change color on hover */
+}
+
+.title-with-line {
+  position: relative; /* Allows the line to be positioned relative to the title */
+  display: inline-block; /* Makes the element only take up the width of the content */
+  margin-bottom: 10px; /* Space between the title and the line */
+}
+
+.title-with-line::after {
+  content: ""; 
+  display: block; 
+  width: 100%; 
+  height: 2px;
+  background-color: #ff0000;
+  position: absolute; 
+  left: 0; 
+  bottom: -5px; 
 }

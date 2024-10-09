@@ -12,10 +12,22 @@
 .custom-col{
     width: auto !important;
 }
-
+/* .ls{
+    width: max-content;
+} */
 @media(max-width:1200px){
     .custom-homeabout-row{
         display: flex  !important;
         flex-direction: column !important;
+    }
+}
+
+@media(min-width:1024px){
+    .homeAboutimgCont{
+        width: 100% !important;
+    }
+    .homeAboutimgCont img{
+        width: 100%;
+        height: 100%;
     }
 }

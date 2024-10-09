@@ -5,6 +5,7 @@ import './Footer.css'
 import { MdEmail, MdKeyboardArrowRight } from 'react-icons/md'
 import { FaLocationPin } from 'react-icons/fa6'
 import { IoLocationSharp } from 'react-icons/io5'
+import galleryData from '../Assets/galleryData'
 export default function Footer() {
     return (
         <footer className="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40">
@@ -16,7 +17,7 @@ export default function Footer() {
                     >
                         <a href="./" className="logo">
                             <div style={{ width: 80 }}>
-                                <img src="http://moderntowing.in/wp-content/uploads/2023/01/IMG-20230103-WA00001.jpg" alt="" />
+                                <img src={galleryData.LOGO} alt="" />
 
                             </div>
 
@@ -50,17 +51,17 @@ export default function Footer() {
                                         <ul className="greylinks">
                                             <li>
                                                 <MdKeyboardArrowRight style={{ color: '#ff0000' }} />
-                                                <a href="about.html">About</a>
+                                                <a href="about">About</a>
                                             </li>
                                             <li>
                                                 <MdKeyboardArrowRight style={{ color: '#ff0000' }} />
 
-                                                <a href="services.html">Services</a>
+                                                <a href="/service/closedcartowing">Services</a>
                                             </li>
                                             <li>
                                                 <MdKeyboardArrowRight style={{ color: '#ff0000' }} />
 
-                                                <a href="gallery-tile.html">Gallery</a>
+                                                <a href="/gallery">Gallery</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -71,7 +72,7 @@ export default function Footer() {
                                             <li>
                                                 <MdKeyboardArrowRight style={{ color: '#ff0000' }} />
 
-                                                <a href="contact.html">Contacts</a>
+                                                <a href="/contact">Contacts</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -89,27 +90,27 @@ export default function Footer() {
                                 <strong> Touch</strong>
                             </h3>
                             <hr className="divider_30_3 zebra_bg divider_left" />
-                            <div className="media small-teaser custom-small-teaser">
-                                <i className="fa fa-map-marker highlight fontsize_18" />
+                            <div  className="media small-teaser custom-small-teaser">
+                                <i  className="fa fa-map-marker highlight fontsize_18" />
                                 <IoLocationSharp
-                                    style={{ color: '#ff0000', marginRight: 20 }} />
-                                <div className="media-body">2551 Alfred Drive Brooklyn, NY</div>
+                                    style={{ color: '#ff0000', marginRight: 20, fontSize:42}} />
+                                <div className="media-body">Shop no 2 om sai darshan building C D Barfiwala road juhu cross lane andheri west mumbai 400058</div>
                             </div>
                             <div className="media small-teaser custom-small-teaser">
                                 <i className="fa fa-envelope highlight fontsize_18" />
                                 <div className="media-body greylinks">
-                                    <MdEmail style={{ color: '#ff0000', marginRight: 20 }} />
-                                    <a href="mailto:your@mail.com">support@towy.com</a>
+                                    <MdEmail style={{ color: '#ff0000', marginRight: 20, }} />
+                                    <a href="mailto:your@mail.com">info@moderntowing.in</a>
                                 </div>
                             </div>
                             <div className="media small-teaser custom-small-teaser">
                                 <i className="fa fa-phone highlight fontsize_18" />
-                                <FaPhone style={{ color: '#ff0000', marginRight: 20 }} />
-                                <div className="media-body">718-250-4467</div>
+                                <FaPhone style={{ color: '#ff0000', marginRight: 20, }} />
+                                <div className="media-body">9820849090</div>
                             </div>
                             <div className="media small-teaser custom-small-teaser">
                                 <i className="fa fa-clock-o highlight fontsize_18" />
-                                <FaClock style={{ color: '#ff0000', marginRight: 20 }} />
+                                <FaClock style={{ color: '#ff0000', marginRight: 20, }} />
                                 <div className="media-body">24 hours a day, 7 days a week</div>
                             </div>
                         </div>

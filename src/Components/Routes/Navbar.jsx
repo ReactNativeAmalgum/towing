@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
 import serviceDetail from '../Inc/ServiceDetail';
 import { NavDropdown } from 'react-bootstrap';
-
+import logo from '../Assets/logo.png'
 function Header() {
   const location = useLocation();
 
@@ -15,7 +15,7 @@ function Header() {
       <Container fluid>
         <Navbar.Brand href="#" style={{ paddingLeft: 50 }}>
           <img
-            src="http://moderntowing.in/wp-content/uploads/2023/01/IMG-20230103-WA00001.jpg"
+            src={logo}
             style={{ width: 100 }}
             alt="Logo"
           />
@@ -30,28 +30,29 @@ function Header() {
             <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
               About
             </NavLink>
-
             <NavDropdown
-              title={
-                <span style={{color:'white',fontWeight:700,fontSize:18,}} className={location.pathname.startsWith('/service') ? 'link active' : 'link'}>
-                  Services
-                </span>
-              }
-              id="basic-nav-dropdown"
-              className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
-            >
-              {serviceDetail.map((s, i) => (
-                <NavDropdown.Item key={i}>
-                  {/* Wrap Link properly inside NavDropdown.Item */}
-                  <Link
-                    className={`linkdeco ${location.pathname === `/service/${s.id}` ? 'active' : ''}`}
-                    to={`/service/${s.id}`}
-                  >
-                    {s.title}
-                  </Link>
-                </NavDropdown.Item>
-              ))}
-            </NavDropdown>
+      title={
+        <span
+          style={{ color: 'white', fontWeight: 700, fontSize: 18 }}
+          className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
+        >
+          Services
+        </span>
+      }
+      id="basic-nav-dropdown"
+      className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
+    >
+      {serviceDetail.map((s, i) => (
+        <NavDropdown.Item key={i}>
+          <Link
+            className={`linkdeco ${location.pathname === `/service/${s.slug}` ? 'active' : ''}`}
+            to={`/service/${s.slug}`}
+          >
+            {s.title}
+          </Link>
+        </NavDropdown.Item>
+      ))}
+    </NavDropdown>
 
             <NavLink to="/gallery" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}>
               Gallery

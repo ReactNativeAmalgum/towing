@@ -24,7 +24,7 @@ export default function HomeContact() {
                                 <div className="media-body media-middle">
                                     <h3 className="text-uppercase grey margin_0">
                                         less than
-                                        <strong>30 min</strong> arrival
+                                        <strong> 30 min</strong> arrival
                                     </h3>
                                 </div>
                             </div>
@@ -34,8 +34,8 @@ export default function HomeContact() {
                         <div className="with_padding_small">
                             <div className="teaser">
                                 <h3 className="text-uppercase highlight big margin_0">
-                                    0 (800)
-                                    <strong>490 45 45</strong>
+                                    +91
+                                    <strong>9820849090</strong>
                                 </h3>
                             </div>
                         </div>

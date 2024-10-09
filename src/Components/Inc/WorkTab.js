@@ -9,8 +9,14 @@ import gallerData from '../Assets/galleryData'
   {
     id: 2,
     category: "bike",
-    imageUr1: gallerData.BIKE2,
+    imageUr1: gallerData.BIKE3,
   },
+  {
+    id: 3,
+    category: "bike",
+    imageUr1: gallerData.BIKE4,
+  },
+
 
 
   // ******************************************Car************************************************************
@@ -44,6 +50,63 @@ import gallerData from '../Assets/galleryData'
 
     category: "car",
     imageUr1: gallerData.CAR4
+  },
+  {
+    id: 6,
+    category: "car",
+    imageUr1: gallerData.CAR6
+  },
+  {
+    id: 7,
+    category: "car",
+    imageUr1: gallerData.CAR7
+  },
+  {
+    id: 8,
+    category: "car",
+    imageUr1: gallerData.CAR8
+  },
+  {
+    id: 9,
+    category: "car",
+    imageUr1: gallerData.CAR9
+  },
+  {
+    id: 10,
+    category: "car",
+    imageUr1: gallerData.CAR10
+  },
+  {
+    id: 11,
+    category: "car",
+    imageUr1: gallerData.CAR11
+  },
+  {
+    id: 12,
+
+    category: "car",
+    imageUr1: gallerData.CAR12
+  },
+  {
+    id: 13,
+    category: "car",
+    imageUr1: gallerData.CAR13
+  },
+  {
+    id: 14,
+    category: "car",
+    imageUr1: gallerData.CAR14
+  },
+  {
+    id: 15,
+    category: "car",
+    imageUr1: gallerData.CAR15
+  },
+  {
+    id: 16,
+
+    category: "car",
+    imageUr1: gallerData.CAR16
   },
 //////////////////// Video ///////////////////////
   {

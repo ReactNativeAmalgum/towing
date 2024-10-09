@@ -9,10 +9,13 @@ export default function HomeAbout() {
         >
             <div className="container">
                 <div className="row custom-homeabout-row">
-                    <div className="col-lg-7 col-md-6 text-center text-md-right custom-col">
-                        <img src="	https://html.modernwebtemplates.com/towy/images/truck.png" alt="" />
+                    <div className="col-lg-7 col-md-6 col-sm-6 text-center text-md-right custom-col">
+                        <div className='homeAboutimgCont'>
+                            <img style={{ width: '100%' }} src="	https://html.modernwebtemplates.com/towy/images/truck.png" alt="" />
+
+                        </div>
                     </div>
-                    <div className="col-lg-5 col-md-6 custom-col">
+                    <div className="col-lg-5 col-md-6 col-sm-6 custom-col">
                         <h2 className="section_header numbered-header">
                             what
                             <strong> we offer</strong>
@@ -20,10 +23,7 @@ export default function HomeAbout() {
                         <p className="small-text">effective flatbed transportation</p>
                         <hr className="divider_30_3 zebra_bg" />
                         <p>
-                            We provide fast, courteous and inexpensive towing services in New
-                            York. We are fully insured and been in business since 1986. We are
-                            ready to respond to all your vehicle emergency needs 24 hours a day,
-                            seven days a week.
+                            Since 2004, with over 20 years of experience, we provide reliable towing and vehicle transport services, including car towing, luxury car carriers, and heavy vehicle towing. Our expert team handles all vehicle types with the latest equipment. Trust us for safe and professional service, anytime you need us.
                         </p>
                         <div className="inline-block topmargin_10">
                             <ul className="list1 checklist grey">
@@ -33,7 +33,7 @@ export default function HomeAbout() {
 
                                         <div className='detail-padding'>
                                             More than
-                                            <strong>30 years of experience</strong>
+                                            <strong> 30 years of experience</strong>
                                         </div>
                                     </div>
                                 </li>
@@ -42,14 +42,14 @@ export default function HomeAbout() {
                                         <FaCheck style={{ color: '#ff0000' }} />
                                         <div className='detail-padding'>
                                             Short arrival time of
-                                            <strong>30 minutes or less</strong>
+                                            <strong> 30 minutes or less</strong>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className='checkList-icon-cont'>
                                         <FaCheck style={{ color: '#ff0000' }} />
-                                        <div className='detail-padding'>  <span>Honest competitive prices -<strong>zero hidden fees</strong></span>
+                                        <div className='detail-padding'>  <span>Honest competitive prices -<strong> zero hidden fees</strong></span>
                                         </div>
                                     </div>
                                 </li>
@@ -59,7 +59,7 @@ export default function HomeAbout() {
 
                                         <div className='detail-padding' >
                                             Friendly and
-                                            <strong>professional</strong> service
+                                            <strong> professional</strong> service
                                         </div>
                                     </div>
                                 </li>
@@ -69,8 +69,8 @@ export default function HomeAbout() {
 
                                         <div className='detail-padding'>
                                             Available
-                                            <strong>24 hours</strong> a day,
-                                            <strong>7 days</strong> a week
+                                            <strong> 24 hours</strong> a day,
+                                            <strong> 7 days</strong> a week
                                         </div>
                                     </div>
                                 </li>
