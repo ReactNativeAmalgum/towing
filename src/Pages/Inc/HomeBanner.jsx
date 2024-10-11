@@ -26,7 +26,7 @@ const HomeBanner = () => {
     },
     {
       id: 2,
-      img: galleryData.CAR7,
+      img: galleryData.UNDER1,
       text: "we provide highest quality",
       text1: "towing services",
       text2: "Fast, courteous and inexpensive towing and roadside assistance in San Diego.",

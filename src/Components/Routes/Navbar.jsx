@@ -16,7 +16,7 @@ function Header() {
         <Navbar.Brand href="#" style={{ paddingLeft: 50 }}>
           <img
             src={logo}
-            style={{ width: 100 }}
+            style={{ width: 100, backgroundColor:'white' }}
             alt="Logo"
           />
         </Navbar.Brand>

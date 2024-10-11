@@ -19,7 +19,7 @@ export default function HomeFeature() {
                                 <FaStar />
                             </div>
                             <h3 className="counter grey counted" data-from={0} data-to={30} data-speed={2100}>
-                                20
+                                30
                             </h3>
                             <p className="lightfont">Years of Experience</p>
                         </div>
@@ -30,7 +30,7 @@ export default function HomeFeature() {
                                 <HiBuildingOffice2 />
                             </div>
                             <h3 className="counter grey counted" data-from={0} data-to={74} data-speed={2100}>
-                                74
+                                3
                             </h3>
                             <p className="lightfont">Offices Worldwide</p>
                         </div>
@@ -41,7 +41,7 @@ export default function HomeFeature() {
                                 <GiTowTruck />
                             </div>
                             <h3 className="counter grey counted" data-from={0} data-to={3720} data-speed={2100}>
-                                3720
+                                45000+
                             </h3>
                             <p className="lightfont">Vehicles Towed</p>
                         </div>
@@ -52,7 +52,7 @@ export default function HomeFeature() {
                                 <FaPeopleGroup />
                             </div>
                             <h3 className="counter grey counted" data-from={0} data-to={874} data-speed={2100}>
-                                874
+                                50
                             </h3>
                             <p className="lightfont">Workers in Team</p>
                         </div>

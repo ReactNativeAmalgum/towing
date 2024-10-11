@@ -25,30 +25,25 @@ export default function HomeTestimonial() {
                             <img src={testi1} alt="Curtis Harrington" />
                             On time, quick, smooth experience at competitive prices. Driver was very experienced and was able to find pickup and drop locations quickly.
                             <div className="item-meta lightfont">
-                                <h5 className="highlight">Curtis Harrington</h5>
-                                <p>Manager</p>
+                                <h5 className="highlight">Anmol Mehta</h5>
                             </div>
                         </blockquote>
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
                             <img src={testi2} alt="Jane Doe" />
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                            nec odio. Praesent libero. Sed cursus ante dapibus diam.
+                            Very prompt and quick response. The towing truck was at my place within 30 mins. My bike was delivered to the service center perfectly.
                             <div className="item-meta lightfont">
-                                <h5 className="highlight">Jane Doe</h5>
-                                <p>Director</p>
+                                <h5 className="highlight">Mahetab Khan</h5>
                             </div>
                         </blockquote>
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
                             <img src={testi3} alt="John Smith" />
-                            Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis
-                            sagittis ipsum. Praesent mauris.
+                            Excellent service for towing my TATA Nexon EV   - very well handled and punctual timing wise   - suresh Karnani
                             <div className="item-meta lightfont">
-                                <h5 className="highlight">John Smith</h5>
-                                <p>CEO</p>
+                                <h5 className="highlight">Sohail Shaikh</h5>
                             </div>
                         </blockquote>
                     </SwiperSlide>

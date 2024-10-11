@@ -11,7 +11,18 @@
 }
 .custom-col{
     width: auto !important;
+    height: 100% !important;
 }
+/* .custom-col .homeAboutimgCont{
+    height: 400px !important;
+    width: 500px !important;
+} */
+ @media(min-width:1200px){
+    .custom-col .homeAboutimgCont{
+        height: 400px !important;
+        width: 500px !important;
+    }
+ }
 /* .ls{
     width: max-content;
 } */

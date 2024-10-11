@@ -27,7 +27,7 @@ export default function HomeService() {
                                     <div className="teaser text-center custom-homeservice-col">
                                         <div className='eee'>
                                             <div className='carImgCont'>
-                                            <img src={service.img[0]} alt={service.title} />
+                                            <img style={{borderRadius:10,}} src={service.img[0]} alt={service.title} />
 
                                             </div>
                                         </div>

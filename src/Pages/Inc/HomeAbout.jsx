@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCheck } from 'react-icons/fa'
 import './HomeAbout.css'
+import galleryData from '../../Components/Assets/galleryData'
 export default function HomeAbout() {
     return (
         <section
@@ -9,18 +10,18 @@ export default function HomeAbout() {
         >
             <div className="container">
                 <div className="row custom-homeabout-row">
-                    <div className="col-lg-7 col-md-6 col-sm-6 text-center text-md-right custom-col">
+                    <div className="col-lg-6 col-md-6 col-sm-6 text-center text-md-right custom-col">
                         <div className='homeAboutimgCont'>
-                            <img style={{ width: '100%' }} src="	https://html.modernwebtemplates.com/towy/images/truck.png" alt="" />
+                            <img style={{ width: '100%', height:'100%' }} src={galleryData.UNDER1} alt="" />
 
                         </div>
                     </div>
-                    <div className="col-lg-5 col-md-6 col-sm-6 custom-col">
+                    <div className="col-lg-6 col-md-6 col-sm-6 custom-col">
                         <h2 className="section_header numbered-header">
                             what
                             <strong> we offer</strong>
                         </h2>
-                        <p className="small-text">effective flatbed transportation</p>
+                        <p className="small-text">luxury car towing</p>
                         <hr className="divider_30_3 zebra_bg" />
                         <p>
                             Since 2004, with over 20 years of experience, we provide reliable towing and vehicle transport services, including car towing, luxury car carriers, and heavy vehicle towing. Our expert team handles all vehicle types with the latest equipment. Trust us for safe and professional service, anytime you need us.
