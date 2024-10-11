@@ -4,6 +4,7 @@ import {
   FaFacebook,
   FaFacebookF,
   FaInstagramSquare,
+  FaLocationArrow,
   FaPhone,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -20,7 +21,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div
-            className="col-md-3 col-sm-6 to_animate animated fadeInUp"
+            className="col-md-4 col-sm-6 to_animate animated fadeInUp"
             data-animation="fadeInUp"
           >
             <a href="./" className="logo">
@@ -58,7 +59,7 @@ export default function Footer() {
             </p>
           </div>
           <div
-            className="col-md-3 col-sm-6 to_animate animated fadeInUp"
+            className="col-md-4 col-sm-6 to_animate animated fadeInUp"
             data-animation="fadeInUp"
           >
             <div className="topmargin_15 columns_margin_0">
@@ -101,7 +102,7 @@ export default function Footer() {
             </div>
           </div>
           <div
-            className="col-md-3 col-sm-6 to_animate animated fadeInUp"
+            className="col-md-4 col-sm-6 to_animate animated fadeInUp"
             data-animation="fadeInUp"
           >
             <div className="widget widget_text topmargin_15">
@@ -110,12 +111,13 @@ export default function Footer() {
                 <strong> Touch</strong>
               </h3>
               <hr className="divider_30_3 zebra_bg divider_left" />
+
               <div className="media small-teaser custom-small-teaser">
-                <i className="fa fa-map-marker highlight fontsize_18" />
-                <IoLocationSharp
-                  style={{ color: "#ff0000", marginRight: 20, fontSize: 42 }}
-                />
+                <i className="fa fa-envelope highlight fontsize_18" />
                 <div className="media-body">
+                  <FaLocationArrow
+                    style={{ color: "#ff0000", marginRight: 20 }}
+                  />
                   Shop no 2 om sai darshan building C D Barfiwala road juhu
                   cross lane andheri west mumbai 400058
                 </div>
@@ -130,7 +132,9 @@ export default function Footer() {
               <div className="media small-teaser custom-small-teaser">
                 <i className="fa fa-phone highlight fontsize_18" />
                 <FaPhone style={{ color: "#ff0000", marginRight: 20 }} />
-                <div className="media-body">9820849090</div>
+                <div className="media-body">
+                  9820849090 / 9820842020 / 9820848080
+                </div>
               </div>
               <div className="media small-teaser custom-small-teaser">
                 <i className="fa fa-clock-o highlight fontsize_18" />
@@ -139,10 +143,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div
-            className="col-md-3 col-sm-12 to_animate animated fadeInUp"
-            data-animation="fadeInUp"
-          ></div>
+
         </div>
       </div>
     </footer>

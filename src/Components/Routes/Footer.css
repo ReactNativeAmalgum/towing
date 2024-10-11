@@ -15,3 +15,27 @@
   flex-direction: row !important;
   align-items: center;
 }
+
+.fontsize_18{
+  font-size: 16px;
+}
+
+.custom-small-teaser i,
+.custom-small-teaser svg {
+  font-size: 18px;
+  transition: font-size 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .custom-small-teaser i,
+  .custom-small-teaser svg {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-small-teaser i,
+  .custom-small-teaser svg {
+    font-size: 14px;
+  }
+}

@@ -144,7 +144,7 @@ export default function ContactSection() {
                             <div className="media-left">
                                 <FaPhoneAlt className="highlight fa fa-phone" /> 
                             </div> 
-                            <div className="media-body">9820849090</div>
+                            <div className="media-body">9820849090 / 9820842020 / 9820848080</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
