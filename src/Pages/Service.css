@@ -148,3 +148,13 @@
   left: 0; 
   bottom: -5px; 
 }
+
+@media(max-width:426px){
+  .custom-service-imgrow{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-img2-cont  {
+    width: 100% !important;
+  }
+}

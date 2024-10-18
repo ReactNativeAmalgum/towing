@@ -46,7 +46,7 @@ export default function Services() {
                   {serviceDetail.map((service, index) => (
                     <li key={index} className="list-group-item">
                       <Link to={`/service/${service.slug}`} className="nav-link">
-                        <FaLongArrowAltRight  /> {' '} {service.title}
+                        <FaLongArrowAltRight /> {' '} {service.title}
                       </Link>
                     </li>
                   ))}
@@ -61,7 +61,7 @@ export default function Services() {
               <div className="p-2 service-img-cont">
                 <img
                   src={serviceF.img[0]}
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'fill' }}
                   alt="Service Main Image"
                   className='service-img'
                 />
@@ -72,33 +72,35 @@ export default function Services() {
                 <p>{serviceF.descp1}</p>
                 <p>{serviceF.descp2}</p>
               </div>
-              
+
               <div className='container custom-img-cont custom-padding'>
-                <div className="p-2 service-img2-cont">
-                  <img
-                    src={serviceF.img[1]} // Uncomment and use appropriate image source
-                    alt="Additional Image 1"
-                    className='service-img'
-                  />
-                </div>
-                <div className="p-2 service-img2-cont">
-                  <img
-                    src={serviceF.img[2]} // Uncomment and use appropriate image source
-                    alt="Additional Image 2"
-                    className='service-img'
-                  />
+                <div className='row custom-service-imgrow' >
+                  <div className="p-2 service-img2-cont col-6">
+                    <img
+                      src={serviceF.img[1]} // Uncomment and use appropriate image source
+                      alt="Additional Image 1"
+                      className='service-img'
+                    />
+                  </div>
+                  <div className="p-2 service-img2-cont col-6">
+                    <img
+                      src={serviceF.img[2]} // Uncomment and use appropriate image source
+                      alt="Additional Image 2"
+                      className='service-img'
+                    />
+                  </div>
                 </div>
               </div>
-              
+
               <div className='custom-padding'>
                 <h3 className="title-with-line">Our Work Process</h3>
                 <p>{serviceF.descp3}</p>
                 <div className='service-check-cont'>
                   <ul>
-                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list1}</li>
-                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list2}.</li>
-                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list3}</li>
-                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list4}</li>
+                    <li><FaCheck style={{ fontSize: 'medium' }} /> {' '}{serviceF.list1}</li>
+                    <li><FaCheck style={{ fontSize: 'medium' }} /> {' '}{serviceF.list2}.</li>
+                    <li><FaCheck style={{ fontSize: 'medium' }} /> {' '}{serviceF.list3}</li>
+                    <li><FaCheck style={{ fontSize: 'medium' }} /> {' '}{serviceF.list4}</li>
                   </ul>
                 </div>
                 <h3 className="title-with-line">Service Features</h3>

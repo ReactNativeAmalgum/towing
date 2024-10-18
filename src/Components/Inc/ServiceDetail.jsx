@@ -69,9 +69,11 @@ const serviceDetail = [
     title: "Closed Car Carrier Service For Luxury Car",
     homeDescp: `Modern Towing offers secure closed car carrier services for luxury and all vehicle. Safe, discreet transport for your prized car.`,
     descp1: `At Modern Towing, we understand that your luxury and all vehicles deserves the utmost care and protection during transportation. Our Closed Car Carrier Service is specifically designed to provide a secure and enclosed environment for your high-end vehicles, shielding them from the elements and road debris. Whether you're relocating, purchasing a new luxury car, or attending a prestigious event, our expert team ensures your vehicle is treated with the respect it deserves.`,
-    img: [galleryData.CLOSED1,
-      galleryData.CLOSED2,
+    img: [
+      
       galleryData.CLOSED3,
+      galleryData.CLOSED2,
+      galleryData.CLOSED1,
       galleryData.CLOSED4
     ],
     slug: `closedcartowing`,
