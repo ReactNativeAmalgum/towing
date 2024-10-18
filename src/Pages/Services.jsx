@@ -46,7 +46,7 @@ export default function Services() {
                   {serviceDetail.map((service, index) => (
                     <li key={index} className="list-group-item">
                       <Link to={`/service/${service.slug}`} className="nav-link">
-                        <FaLongArrowAltRight /> {' '} {service.title}
+                        <FaLongArrowAltRight  /> {' '} {service.title}
                       </Link>
                     </li>
                   ))}
@@ -95,10 +95,10 @@ export default function Services() {
                 <p>{serviceF.descp3}</p>
                 <div className='service-check-cont'>
                   <ul>
-                    <li><FaCheck /> {' '}{serviceF.list1}</li>
-                    <li><FaCheck /> {' '}{serviceF.list2}.</li>
-                    <li><FaCheck /> {' '}{serviceF.list3}</li>
-                    <li><FaCheck /> {' '}{serviceF.list4}</li>
+                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list1}</li>
+                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list2}.</li>
+                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list3}</li>
+                    <li><FaCheck style={{fontSize:'medium'}} /> {' '}{serviceF.list4}</li>
                   </ul>
                 </div>
                 <h3 className="title-with-line">Service Features</h3>

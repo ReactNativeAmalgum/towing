@@ -31,7 +31,7 @@ export default function Footer() {
             </a>
             <p>
               Modern Towing has 20 years of experience providing reliable car
-              towing, luxury vehicle transport, heavy vehicle towing, and
+              towing, luxury and all vehicles transport, heavy vehicle towing, and
               specialized hydraulic towing services, ensuring safe and efficient
               transport for all vehicles.
             </p>

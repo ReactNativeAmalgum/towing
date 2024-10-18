@@ -11112,7 +11112,7 @@ p>[class*=rt-icon]+[class*=rt-icon] {
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url('./Components/Assets/audi.jpg') no-repeat;
+  background: url('./Components/Assets/Flatbed16.jpg') no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -11700,7 +11700,7 @@ a.pp_arrow_previous.disabled,a.pp_arrow_next.disabled {
 }
 
 .pp_gallery li.default a {
-  background: url('./Components/Assets/audi.jpg') 0 0 no-repeat;
+  background: url('./Components/Assets/Flatbed16.jpg') 0 0 no-repeat;
   display: block;
   height: 33px;
   width: 50px
@@ -12654,7 +12654,7 @@ form [class*=col-] {
   background-position: 50% 0;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url('./Components/Assets/audi.jpg')
+  background-image: url('./Components/Assets/Flatbed16.jpg')
 }
 
 .muted_section:before {
@@ -12732,7 +12732,7 @@ form [class*=col-] {
 }
 
 .bg_image,.bg_image:after,.ls.ms.bg_image {
-  background-image: url('./Components/Assets/audi.jpg')
+  background-image: url('./Components/Assets/Flatbed16.jpg')
 }
 
 .section_header {
@@ -12832,7 +12832,7 @@ form [class*=col-] {
   position: absolute;
   left: 50%;
   top: 50%;
-  background: url('./Components//Assets//audi.jpg') no-repeat 50% 50% transparent;
+  background: url('./Components//Assets//Flatbed16.jpg') no-repeat 50% 50% transparent;
   margin: -50px 0 0 -50px
 }
 
@@ -12872,47 +12872,47 @@ body.boxed {
 }
 
 .pattern1 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern2 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern3 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern4 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern5 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern6 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern7 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern8 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern9 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern10 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .pattern11 {
-  background-image: url( './Components/Assets/audi.jpg')
+  background-image: url( './Components/Assets/Flatbed16.jpg')
 }
 
 .container,.fluid-container,.container-right-half,.container-left-half {
@@ -16156,7 +16156,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .section_subscribe.parallax {
-  background-image: url(./Components//Assets//audi.jpg);
+  background-image: url(./Components//Assets//Flatbed16.jpg);
 }
 
 .section_subscribe .widget {
@@ -16166,35 +16166,35 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .section_counters.parallax {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .get_quote.parallax {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .page_breadcrumbs.background_cover,.page_breadcrumbs.parallax {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .section_action.parallax,.section_features.parallax {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .page_testimonials {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .page_contact.parallax {
-  background-image: url(./Components//Assets//audi.jpg);
+  background-image: url(./Components//Assets//Flatbed16.jpg);
 }
 
 .page_copyright.parallax,.page_footer.parallax {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .section_404.background_cover {
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .section_404.background_cover:after {
@@ -19461,7 +19461,7 @@ aside .widget_tag_cloud a:hover {
 
 .contact-form.parallax {
   padding: 50px 50px 35px;
-  background-image: url(./Components//Assets//audi.jpg)
+  background-image: url(./Components//Assets//Flatbed16.jpg)
 }
 
 .contact-form-respond {

@@ -27,7 +27,7 @@ function GallerySection() {
   const interiorWorkContent = [
     {
       descp1:
-        "Welcome to our gallery, where you can explore a diverse collection of images and videos showcasing our wide range of towing services. Here, you’ll find high-quality photos of various vehicles we have transported, including cars, motorcycles, trucks, and luxury vehicles. Each image captures our commitment to safety and professionalism, illustrating how we handle every towing job with precision and cared.",
+        "Welcome to our gallery, where you can explore a diverse collection of images and videos showcasing our wide range of towing services. Here, you’ll find high-quality photos of various vehicles we have transported, including cars, motorcycles, trucks, and luxury and all vehicle. Each image captures our commitment to safety and professionalism, illustrating how we handle every towing job with precision and cared.",
       descp2:
         " Our gallery highlights not only the vehicles we tow but also the advanced equipment we use to ensure efficient service. From flatbed trucks to specialized carriers for luxury cars, each photo reflects our dedication to maintaining the highest standards in the towing industry. You'll see our skilled team in action, demonstrating their expertise in various scenarios, whether it’s a routine tow or an emergency situation.",
       descp3:
@@ -95,22 +95,13 @@ function GallerySection() {
                   <span>Flatbed</span>
                 </li>
                 <li
-                  data-filter=".car"
-                  onClick={() => filterItems("car")}
-                  className={`filter ${
-                    activeFilter === "car" ? "active" : ""
-                  }`}
-                >
-                  <span>Car Towing</span>
-                </li>
-                <li
                   data-filter=".bike"
                   onClick={() => filterItems("bike")}
                   className={`filter ${
                     activeFilter === "bike" ? "active" : ""
                   }`}
                 >
-                  <span>Motorcycle Towing</span>
+                  <span>Motorcycle towing</span>
                 </li>
                 <li
                   data-filter=".heavy"
@@ -128,14 +119,14 @@ function GallerySection() {
                     activeFilter === "under" ? "active" : ""
                   }`}
                 >
-                  <span>Hydraulic Towing </span>
+                  <span>Underlift hydraulic car towing </span>
                 </li>
                 <li
                   data-filter=".closed"
                   onClick={() => filterItems("closed")}
                   className={`filter ${activeFilter === "closed" ? "active" : ""}`}
                 >
-                  <span>Closed Car</span>
+                  <span>Closed car</span>
                 </li>
                 <li
                   data-filter=".video"

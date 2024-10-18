@@ -54,7 +54,7 @@ export default function About() {
             <div className="d-flex flex-wrap">
               <div className="p-2 about-img-cont ">
                 <img
-                  src={galleryData.CAR12}
+                  src={galleryData.CLOSED2}
                   alt="Grid Image 1"
                   className='about-img '
                 />
@@ -64,14 +64,14 @@ export default function About() {
               <div className='container custom-img-cont custom-padding' style={{ padding: 0 }}>
                 <div className="p-2 about-img2-cont">
                   <img
-                    src={galleryData.CAR14}
+                    src={galleryData.FLATBED2}
                     alt="Grid Image 1"
                     className='about-img'
                   />
                 </div>
                 <div className="p-2 about-img2-cont">
                   <img
-                    src={galleryData.CAR9}
+                    src={galleryData.Flatbed8}
                     alt="Grid Image 1"
                     className='about-img'
                   />

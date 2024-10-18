@@ -12,7 +12,7 @@ export default function HomeAbout() {
                 <div className="row custom-homeabout-row">
                     <div className="col-lg-6 col-md-6 col-sm-6 text-center text-md-right custom-col">
                         <div className='homeAboutimgCont'>
-                            <img style={{ width: '100%', height:'100%' }} src={galleryData.UNDER1} alt="" />
+                            <img className='homeabout-img' src={galleryData.UNDER1} alt="" />
 
                         </div>
                     </div>
@@ -21,10 +21,10 @@ export default function HomeAbout() {
                             what
                             <strong> we offer</strong>
                         </h2>
-                        <p className="small-text">luxury car towing</p>
+                        <p className="small-text">luxury and all car towing</p>
                         <hr className="divider_30_3 zebra_bg" />
                         <p>
-                            Since 2004, with over 20 years of experience, we provide reliable towing and vehicle transport services, including car towing, luxury car carriers, and heavy vehicle towing. Our expert team handles all vehicle types with the latest equipment. Trust us for safe and professional service, anytime you need us.
+                            Since 2004, with over 20 years of experience, we provide reliable towing and vehicle transport services, including car towing, luxury and all vehicle car carriers, and heavy vehicle towing. Our expert team handles all vehicle types with the latest equipment. Trust us for safe and professional service, anytime you need us.
                         </p>
                         <div className="inline-block topmargin_10">
                             <ul className="list1 checklist grey">

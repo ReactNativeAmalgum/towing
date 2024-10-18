@@ -11,7 +11,7 @@ function Header() {
   const location = useLocation();
 
   return (
-    <Navbar expand="lg" className="navbar-cont">
+    <Navbar style={{backgroundColor:'white', color:'black'}} expand="lg" className="navbar-cont">
       <Container fluid>
         <Navbar.Brand href="#" style={{ paddingLeft: 50 }}>
           <img
@@ -33,7 +33,7 @@ function Header() {
             <NavDropdown
       title={
         <span
-          style={{ color: 'white', fontWeight: 700, fontSize: 18 }}
+          style={{ color: 'black', fontWeight: 700, fontSize: 18 }}
           className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
         >
           Services

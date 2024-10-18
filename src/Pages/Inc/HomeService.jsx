@@ -8,14 +8,14 @@ export default function HomeService() {
             id="services"
             className="ls section_padding_top_150 section_padding_bottom_120 columns_margin_0"
         >
-            <div className="container">
+            <div className="container"> 
                 <div className="row">
                     <div className="col-sm-12 text-center ">
                         <h2 className="section_header numbered-header">
                             Our
                             <strong> Services</strong>
                         </h2>
-                        <p className="small-text">Emergency Roadside Assistance</p>
+                        <p className="small-text">Emergency car towing service & closed car carrier service</p>
                         <hr className="divider_30_3 zebra_bg" />
                     </div>
                 </div>

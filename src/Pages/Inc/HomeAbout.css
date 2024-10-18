@@ -13,10 +13,15 @@
     width: auto !important;
     height: 100% !important;
 }
-/* .custom-col .homeAboutimgCont{
+.custom-col .homeAboutimgCont{
     height: 400px !important;
-    width: 500px !important;
-} */
+    display: flex;
+    /* width: 500px !important; */
+}
+.custom-col .homeAboutimgCont .homeabout-img{
+    height: 100%;
+    width: 100%;
+}
  @media(min-width:1200px){
     .custom-col .homeAboutimgCont{
         height: 400px !important;

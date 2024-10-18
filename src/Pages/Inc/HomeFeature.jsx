@@ -41,7 +41,7 @@ export default function HomeFeature() {
                                 <GiTowTruck />
                             </div>
                             <h3 className="counter grey counted" data-from={0} data-to={3720} data-speed={2100}>
-                                45000+
+                                450000+
                             </h3>
                             <p className="lightfont">Vehicles Towed</p>
                         </div>
