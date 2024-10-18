@@ -19,11 +19,14 @@ import Flatbed15 from "./Flatbed15.jpg";
 import Flatbed16 from "./Flatbed16.jpg";
 import Flatbed17 from "./Flatbed17.jpg";
 import Flatbed18 from "./Flatbed18.jpg";
-
+import Flatbed19 from "./Flatbed19.jpg";
+import Flatbed20 from "./Flatbed20.jpg";
+import Flatbed21 from "./Flatbed21.jpg";
 import video1 from "./video1.jpg";
 import video2 from "./video2.jpg";
 import video3 from "./video3.jpg";
 import video4 from "./video4.jpg";
+import video5 from '../Assets/video5.webm'
 import logo from "./logo.png";
 import CLOSED1 from "./closedcar1.jpg";
 import CLOSED2 from './closedCar2.jpg';
@@ -56,7 +59,9 @@ const galleryData = {
   Flatbed15: Flatbed15,
   Flatbed16: Flatbed16,
   Flatebed17 : Flatbed17,
-  Flatbed18 : Flatbed18,
+  Flatbed19 : Flatbed19,
+  Flatbed20 : Flatbed20,
+  Flatbed21 : Flatbed21,
   CLOSED1: CLOSED1,
   CLOSED2:CLOSED2,
   CLOSED3:CLOSED3,
@@ -67,6 +72,7 @@ const galleryData = {
   VIDEO2: video2,
   VIDEO3: video3,
   VIDEO4: video4,
+  VIDEO5: video5,
   LOGO: logo,
   UNDER1: UNDER1,
   HEAVY:heavy,

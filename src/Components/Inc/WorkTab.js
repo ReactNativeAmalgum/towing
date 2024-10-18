@@ -84,7 +84,22 @@ export const WorkTab = [
   {
     id: 17,
     category: "flatbed",
-    imageUr1: gallerData.Flatbed18,
+    imageUr1: gallerData.Flatebed17,
+  },
+  {
+    id: 18,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed19,
+  },
+  {
+    id: 19,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed20,
+  },
+  {
+    id: 20,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed21,
   },
   // *******************************bike CAR**********************************
   {
@@ -103,13 +118,13 @@ export const WorkTab = [
     category: "bike",
     imageUr1: gallerData.BIKE2,
   },
-    // *******************************Heavy vehichle**********************************
-    {
-      id: 1,
-      category: "heavy",
-      imageUr1: gallerData.HEAVY,
-    },
-  
+  // *******************************Heavy vehichle**********************************
+  {
+    id: 1,
+    category: "heavy",
+    imageUr1: gallerData.HEAVY,
+  },
+
   // *******************************CLOSED CAR**********************************
   {
     id: 1,
@@ -137,62 +152,7 @@ export const WorkTab = [
     category: "under",
     imageUr1: gallerData.UNDER1,
   },
-  // ******************************************Car************************************************************
 
-  {
-    id: 1,
-    category: "car",
-    imageUr1: gallerData.CAR2,
-  },
-  {
-    id: 2,
-
-    category: "car",
-    imageUr1: gallerData.CAR3,
-  },
-  {
-    id: 4,
-    category: "car",
-    imageUr1: gallerData.CAR6,
-  },
-  {
-    id: 5,
-    category: "car",
-    imageUr1: gallerData.CAR7,
-  },
-  {
-    id: 6,
-    category: "car",
-    imageUr1: gallerData.CAR8,
-  },
-  {
-    id: 7,
-    category: "car",
-    imageUr1: gallerData.CAR9,
-  },
-  {
-    id: 8,
-    category: "car",
-    imageUr1: gallerData.CAR11,
-  },
-
-  {
-    id: 9,
-    category: "car",
-    imageUr1: gallerData.CAR13,
-  },
-
-  {
-    id: 10,
-    category: "car",
-    imageUr1: gallerData.CAR15,
-  },
-  {
-    id: 11,
-
-    category: "car",
-    imageUr1: gallerData.CAR16,
-  },
   //////////////////// Video ///////////////////////
   {
     id: 1,
@@ -222,4 +182,9 @@ export const WorkTab = [
     imageUr1: gallerData.VIDEO4,
     link: "https://www.youtube.com/watch?app=desktop&v=kfA4iEjNK_Q",
   },
+  {
+    id: 4,
+    category: gallerData.VIDEO5,
+
+  }
 ];
