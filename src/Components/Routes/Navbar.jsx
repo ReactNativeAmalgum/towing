@@ -13,7 +13,7 @@ function Header() {
   return (
     <Navbar style={{backgroundColor:'white', color:'black'}} expand="lg" className="navbar-cont">
       <Container fluid>
-        <Navbar.Brand href="#" style={{ paddingLeft: 50 }}>
+        <Navbar.Brand href="#" >
           <img
             src={logo}
             style={{ width: 100, backgroundColor:'white' }}
