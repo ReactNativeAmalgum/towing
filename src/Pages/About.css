@@ -150,3 +150,12 @@
     margin-top: 30px;
     border-radius: 5px;
   }
+.custom-aboutimg-row{
+  padding: .5rem !important;
+}
+  @media(max-width: 769px){
+.custom-aboutimg-row{
+  display: flex;
+  flex-direction: column;
+}
+  }

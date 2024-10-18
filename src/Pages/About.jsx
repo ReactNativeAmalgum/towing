@@ -22,10 +22,10 @@ export default function About() {
           </div>
         </div>
       </section>
-      <div className="container custom-about-cont" style={{ padding: 0 }}>
+      <div className="container custom-about-cont" >
         <div className="row">
           {/* First Column with a Card */}
-          <div className="col-12 col-md-6 custom-padding" style={{ paddingTop: 0, padding: 0 }}>
+          <div className="col-12 col-md-6 custom-padding" >
             <p className='speacial-para'>
               Since 2004, we’ve been providing reliable towing and vehicle transport services for all types of vehicles, from cars to heavy-duty trucks. Our experienced team uses the latest equipment to ensure safe and efficient service. Trust us for professional and timely assistance, every time.
 
@@ -62,19 +62,25 @@ export default function About() {
 
 
               <div className='container custom-img-cont custom-padding' style={{ padding: 0 }}>
-                <div className="p-2 about-img2-cont">
-                  <img
-                    src={galleryData.FLATBED2}
-                    alt="Grid Image 1"
-                    className='about-img'
-                  />
-                </div>
-                <div className="p-2 about-img2-cont">
-                  <img
-                    src={galleryData.Flatbed8}
-                    alt="Grid Image 1"
-                    className='about-img'
-                  />
+                <div className='row custom-aboutimg-row'>
+
+                    <div className="p-2 about-img2-cont col-lg-6 col-sm-6">
+                      <img
+                        src={galleryData.FLATBED2}
+                        alt="Grid Image 1"
+                        className='about-img'
+                      />
+
+                  </div>
+
+                    <div className="p-2 about-img2-cont col-lg-6 col-sm-6">
+                      <img
+                        src={galleryData.Flatbed8}
+                        alt="Grid Image 1"
+                        className='about-img'
+                      />
+
+                  </div>
                 </div>
               </div>
 

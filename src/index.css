@@ -12916,7 +12916,7 @@ body.boxed {
 }
 
 .container,.fluid-container,.container-right-half,.container-left-half {
-  max-width: 100%
+  /* max-width: 100% */
 }
 
 .boxed .container,.boxed .container-left-half,.boxed .container-right-half {
