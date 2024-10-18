@@ -8,7 +8,7 @@ export default function HomeService() {
             id="services"
             className="ls section_padding_top_150 section_padding_bottom_120 columns_margin_0"
         >
-            <div className="container"> 
+            <div className="container">
                 <div className="row">
                     <div className="col-sm-12 text-center ">
                         <h2 className="section_header numbered-header">
@@ -23,21 +23,17 @@ export default function HomeService() {
                     {
                         serviceDetail.map((service, i) => (
                             <div key={i} className="col-md-4 homeservcie-card-cont ">
-                                <div className="with_padding">
-                                    <div className="teaser text-center custom-homeservice-col">
-                                        <div className='eee'>
-                                            <div className='carImgCont'>
-                                            <img style={{borderRadius:10,}} src={service.img[0]} alt={service.title} />
+                                <div className="teaser text-center custom-homeservice-col">
+                                    <div className='carImgCont'>
+                                        <img style={{ borderRadius: 10, }} src={service.img[0]} alt={service.title} />
 
-                                            </div>
-                                        </div>
-                                        <h4 className="regular title-cont">
-                                            <a href={`/service/${service.slug}`}>{service.title}</a>
-                                        </h4>
-                                        <p>
-                                            {service.homeDescp}
-                                        </p>
                                     </div>
+                                    <h4 className="regular title-cont">
+                                        <a href={`/service/${service.slug}`}>{service.title}</a>
+                                    </h4>
+                                    <p>
+                                        {service.homeDescp}
+                                    </p>
                                 </div>
                             </div>
                         ))

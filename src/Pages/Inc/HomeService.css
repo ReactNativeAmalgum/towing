@@ -17,7 +17,7 @@
     margin-top: 10px;
 }
 .carImgCont{
-    width: 300px;
+    width: 100%;
     height: 300px;
 
 }
@@ -25,7 +25,9 @@
     height: 100%;
     width: 100%;
 }
-
+.topmargin_30{
+ padding-bottom: 50px;
+}
 @media(max-width:1199px){
     .custom-homeservice-col{
         display: flex;
@@ -34,8 +36,8 @@
 }
 @media(max-width:769px){
     .carImgCont{
-        width: 200px;
-        height: 200px;
+        /* width: 200px;
+        height: 200px; */
     }
     .carImgCont img{
         width: 100%;
@@ -52,7 +54,7 @@
 @media(max-width:426px){
     .carImgCont{
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
     }
     .carImgCont img{
         width: 100%;
