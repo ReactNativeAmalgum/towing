@@ -1,161 +1,194 @@
 .custom-about-col {
-    /* border: 1px solid black; */
-  }
-  .card{
-      border:0px !important;
-  }
-  .custom-img-cont {
-    display: flex;
-  }
-  .custom-padding {
-    padding: 5px;
-    padding-top: 3%;
-  }
-  .about-img-cont {
-    height: 350px;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .about-img-cont img {
-    height: 100%;
-    width: 100%;
-  
-    border-radius: 10px;
-  }
-  .custom-about-cont {
-    margin-top: 5%;
-  }
-  .about-img2-cont {
-    height: 300px;
-    width: 450px;
-  }
-  .about-img2-cont img {
-    width: 100%;
-    border-radius: 10px;
-    height: 100%;
-  }
-  
-  .custom-about-cont h3 {
-    margin: 0px;
-    font-weight: 600 !important;
-    font-family: "Inter", sans-serif;
-    line-height: 1.2;
-  }
-  .custom-about-cont p {
-    font-size: 16px !important;
-    color: #787878;
-    padding-top: 2%;
-    font-family: "Sergio", sans-serif !important;
-  }
-  
-  .card-body {
-    background: #f9f9f9;
-    padding: 30px;
-    height: 100% !important;
-    /* margin-bottom: 30px; */
-    border-radius: 10px;
-  }
-  .card-title {
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    font-weight: 600 !important;
-    font-family: "Inter", sans-serif !important;
-    position: relative;
-    font-size: 25px !important;
-    color: black;
-  }
-  
-  .list-group{
-      padding-left: 10px !important;
-      padding-right: 10px !important;
-      border:0px !important; 
-  }
-  .list-group-item svg {
-      color: #ff0000;}
-  
-  .list-group .list-group-item a {
-    font-size: 16px !important;
-    text-decoration: none;
-    color: #111111;
-  
-    font-family: "Roboto", sans-serif;
-    padding: 10px 0px;
-  }
-  
-  .list-group .list-group-item {
-    border-bottom: 1px solid #ced4da !important;
-    padding: 10px;
-    background-color: #f9f9f9;
-    line-height: 30px;
-  
-  }
-  
-  .list-group .list-group-item a {
-    transition: transform 0.3s ease; /* Smooth transition */
-  }
-  
-  .list-group .list-group-item a:focus,
-  .list-group .list-group-item a:active {
-    color: #ff0000;
-    transform: translateX(
-      20px
-    ) !important; /* Moves the element 20px to the right when clicked or focused */
-  }
-  
-  
-  .about-check-cont {
-      border-radius: 8px; /* Rounded corners */
-      padding: 10px; 
-  
-  }
-  
-  .about-check-cont ul {
-      list-style-type: none; /* Remove default list style */
-      padding: 0; /* Remove default padding */
-      margin: 0; /* Remove default margin */
-  }
-  
-  .about-check-cont li {
-      display: flex; /* Flexbox for alignment */
-      align-items: center; /* Center items vertically */
-      padding: 10px 0; /* Padding for each list item */
-      font-size: 16px; /* Font size for text */
-      color: #333; /* Text color */
-      transition: color 0.3s ease; /* Smooth color transition on hover */
-  }
-  
-  
-  
-  .about-check-cont li svg {
-      margin-right: 10px; /* Space between icon and text */
-      color: #ff0000; /* Change color on hover */
-  }
-  .wpb_wrapper{
-    position: relative;
-    color: #FFF;
+  /* border: 1px solid black; */
+}
 
-    font-size: 14px;
-    font-weight: 600;
-    background:  #ff0000 ;
-    padding: 19px 0 20px !important;
-    text-align: center;
-    cursor: pointer;
-    line-height: normal;
-    letter-spacing: 1px;
-    border: none;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    width: 150px;
-    margin-top: 30px;
-    border-radius: 5px;
-  }
-.custom-aboutimg-row{
+.card {
+  border: 0px !important;
+}
+
+.custom-img-cont {
+  display: flex;
+}
+
+.custom-padding {
+  padding: 5px;
+  padding-top: 3%;
+}
+
+.about-img-cont {
+  height: 350px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.about-img-cont img {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.custom-about-cont {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img2-cont {
+  height: 300px;
+  width: 450px;
+}
+
+.about-img2-cont img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.custom-about-cont h3 {
+  margin: 0px;
+  font-weight: 600 !important;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+}
+
+.custom-about-cont p {
+  font-size: 16px !important;
+  color: #787878;
+  padding-top: 2%;
+  font-family: "Sergio", sans-serif !important;
+}
+
+.card-body {
+  background: #f9f9f9;
+  padding: 30px;
+  height: 100% !important;
+  /* margin-bottom: 30px; */
+  border-radius: 10px;
+}
+
+.card-title {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: 600 !important;
+  font-family: "Inter", sans-serif !important;
+  position: relative;
+  font-size: 25px !important;
+  color: black;
+}
+
+.list-group {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border: 0px !important;
+}
+
+.list-group-item svg {
+  color: #ff0000;
+}
+
+.list-group .list-group-item a {
+  font-size: 16px !important;
+  text-decoration: none;
+  color: #111111;
+
+  font-family: "Roboto", sans-serif;
+  padding: 10px 0px;
+}
+
+.list-group .list-group-item {
+  border-bottom: 1px solid #ced4da !important;
+  padding: 10px;
+  background-color: #f9f9f9;
+  line-height: 30px;
+
+}
+
+.list-group .list-group-item a {
+  transition: transform 0.3s ease;
+  /* Smooth transition */
+}
+
+.list-group .list-group-item a:focus,
+.list-group .list-group-item a:active {
+  color: #ff0000;
+  transform: translateX(20px) !important;
+  /* Moves the element 20px to the right when clicked or focused */
+}
+
+
+.about-check-cont {
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 10px;
+
+}
+
+.about-check-cont ul {
+  list-style-type: none;
+  /* Remove default list style */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
+}
+
+.about-check-cont li {
+  display: flex;
+  /* Flexbox for alignment */
+  align-items: center;
+  /* Center items vertically */
+  padding: 10px 0;
+  /* Padding for each list item */
+  font-size: 16px;
+  /* Font size for text */
+  color: #333;
+  /* Text color */
+  transition: color 0.3s ease;
+  /* Smooth color transition on hover */
+}
+
+
+
+.about-check-cont li svg {
+  margin-right: 10px;
+  /* Space between icon and text */
+  color: #ff0000;
+  /* Change color on hover */
+}
+
+.wpb_wrapper {
+  position: relative;
+  color: #FFF;
+
+  font-size: 14px;
+  font-weight: 600;
+  background: #ff0000;
+  padding: 19px 0 20px !important;
+  text-align: center;
+  cursor: pointer;
+  line-height: normal;
+  letter-spacing: 1px;
+  border: none;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.custom-aboutimg-row {
   padding: .5rem !important;
 }
-  @media(max-width: 769px){
-.custom-aboutimg-row{
-  display: flex;
-  flex-direction: column;
-}
+
+@media(max-width: 769px) {
+  .custom-aboutimg-row {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
   }
+  .about-img2-cont {
+    width: 100% !important;
+  }
+}
