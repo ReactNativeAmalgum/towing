@@ -16,7 +16,7 @@ export default function HomeAbout() {
 
                     <div className="col-lg-6 col-md-6 col-sm-6 text-center text-md-right custom-col">
                         <div className='homeAboutimgCont'>
-                            <img className='homeabout-img' src={galleryData.UNDER1} alt="" />
+                            <img className='homeabout-img' src={galleryData.UNDER1} alt="Towing Services Mumbai" />
 
                         </div>
                     </div>

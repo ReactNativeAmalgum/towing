@@ -31,7 +31,7 @@ function Header() {
           <img
             src={logo}
             style={{ width: 100, backgroundColor: 'white' }}
-            alt="Logo"
+            alt="Towing Services Mumbai"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" onClick={() => setNavbarExpanded(!navbarExpanded)} />

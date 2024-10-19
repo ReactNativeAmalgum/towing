@@ -77,7 +77,7 @@ const HomeBanner = () => {
               style={{ paddingLeft: 0, paddingRight: 0, borderRadius: 0, justifyContent: 'center' }}
               className="d-block w-100 slider-img"
               src={slide.img}
-              alt={`Slide ${slide.id}`}
+              alt={`Towing Services Mumbai`}
             />
           </Carousel.Item>
         ))}

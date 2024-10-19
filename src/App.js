@@ -7,11 +7,10 @@ import Service from './Pages/Services.jsx'
 import Contact from './Pages/Contact.jsx'
 import Navbar from './Components/Routes/Navbar.jsx'
 import Footer from './Components/Routes/Footer.jsx'
+import Page404 from './Pages/Page404.jsx'
 
 export default function App() {
-  const NotFound = () => {
-    return <h2>404 - Page Not Found</h2>;
-  };
+
   return (
     <Router>
       <>
@@ -23,7 +22,7 @@ export default function App() {
           <Route path='/Top Car Towing Services in Andheri West' element={<Service />} />
           <Route path='/towing-services-near-andheri' element={<Contact />} />
           <Route path="/top-car-towing-services-andheri-west/:slug" element={<Service />} />
-          <Route path='*' element={<NotFound />} /> {/* Catch-all route for 404 */}
+          <Route path='*' element={<Page404 />} /> {/* Catch-all route for 404 */}
 
         </Routes>
         <Footer />

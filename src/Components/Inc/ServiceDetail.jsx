@@ -53,6 +53,7 @@ const serviceDetail = [
       "When your vehicle faces unexpected breakdowns or accidents, finding a trustworthy towing service becomes essential. At Modern Towing, we understand the importance of quick, safe, and reliable towing solutions. Our Flatbed Towing Service in Andheri is designed to offer the best support when you need it most, ensuring your vehicle is transported securely without any further damage.",
     descp2:
       "Flatbed towing is one of the safest methods to transport vehicles. Unlike traditional towing where only two wheels are lifted, flatbed towing involves placing the entire vehicle on the truck’s flat platform. This minimizes the risk of damage, especially for luxury cars, sports vehicles, or any car with low ground clearance. When it comes to handling such delicate vehicles, our Flatbed Towing Service in Andheri ensures they are in safe hands.",
+    alt:`Flatbed Towing Service in Andheri`,
    
     specialfeature:`Our Flatbed Towing Service in Andheri provides 24/7 availability and fast response times for all towing emergencies. With experienced operators and damage-free transport, we specialize in safely towing luxury vehicles and those with low ground clearance. Trust us to handle your vehicle with care and professionalism from start to finish.`,
     slug: `flatbed-towing-service-andheri`,
@@ -71,6 +72,7 @@ const serviceDetail = [
     homeDescp: `Modern Towing offers secure closed car carrier services for luxury and all vehicle. Safe, discreet transport for your prized car.`,
     descp1: `Top Car Towing Services For Luxury Car in Andheri: Closed Car Carrier Service for Luxury Vehicles`,
     h1: `Top Car Towing Services For Luxury Car in Andheri`,
+    alt:`Top Car Towing Services For Luxury Car in Andheri`,
     img: [
 
       galleryData.CLOSED3,
@@ -104,6 +106,7 @@ const serviceDetail = [
     descp1: `At Modern Towing, we understand how essential your two-wheeler is to your daily routine. Whether you're commuting to work or exploring the city, your bike is an important part of your life. That's why we offer reliable Two Wheeler Towing Services in Andheri, ensuring you never face long delays when unexpected breakdowns happen.`,
     h1: `Two Wheeler Towing Services in Andheri `,
     img: [galleryData.BIKE3, galleryData.BIKE1, galleryData.BIKE2],
+    alt:`Two Wheeler Towing Services in Andheri `,
     slug: `two-wheeler-towing-services-andheri`,
     descp2: `Our team at Modern Towing is equipped with the latest technology and tools, designed specifically for two-wheeler transport. We handle everything with the utmost care, from the smallest scooters to the largest motorbikes, so you can have peace of mind knowing your vehicle is in safe hands. When it comes to Two Wheeler Towing Services in Andheri, our professional team responds quickly to get your bike to its destination securely and on time.`,
     descp3:
@@ -130,6 +133,7 @@ Modern Towing offers under-lift hydraulic towing services. Efficient, damage-fre
       "Our Under Lift Hydraulic Towing Service is designed to offer safe and efficient towing for a variety of vehicles. This specialized service utilizes advanced hydraulic technology to lift and transport vehicles with precision, minimizing the risk of damage during the towing process.",
     h1: `Best Hydraulic Towing in Andheri`,
     img: [galleryData.UNDER1, galleryData.UNDER1, galleryData.UNDER1],
+    alt:`Best Hydraulic Towing in Andheri`,
     slug: `best-hydraulic-towing-andheri`,
     descp2:
       "Whether you have a luxury car, a low-profile vehicle, or a heavy-duty truck, our hydraulic towing system ensures that your vehicle is handled with care. Our trained professionals are equipped to manage any towing scenario, providing you with peace of mind and exceptional service.",
@@ -156,6 +160,7 @@ Modern Towing offers under-lift hydraulic towing services. Efficient, damage-fre
       "When it comes to heavy-duty towing in Andheri, Modern Towing is your trusted partner. Our specialized Truck Towing Services in Andheri are designed to handle the most challenging towing requirements, offering reliable and efficient solutions for heavy vehicles like trucks, buses, and other large machinery. With years of experience in the towing industry, we have built a strong reputation for prompt service, professional handling, and a commitment to ensuring the safety of your vehicle.",
     h1: `Truck Towing Services in Andheri`,
     img: [galleryData.HEAVY, galleryData.HEAVY1, galleryData.HEAVY2],
+    alt:`Truck Towing Services in Andheri`,
     slug: `truck-towing-services-andheri`,
     descp2:
       "Our team is equipped with state-of-the-art tow trucks and hydraulic systems that can handle the weight and size of heavy vehicles without causing any damage. Whether you’re dealing with a breakdown, an accident, or simply need your vehicle moved to another location, our Truck Towing Services in Andheri are available 24/7 to respond to your needs. We understand how critical timely service is, especially for businesses relying on these vehicles, and our fast response times ensure minimal downtime.",

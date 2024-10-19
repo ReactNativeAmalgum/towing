@@ -3,6 +3,7 @@ import './Service.css';
 import { FaCheck, FaLongArrowAltRight } from 'react-icons/fa';
 import serviceDetail from '../Components/Inc/ServiceDetail';
 import { useParams, Link } from 'react-router-dom';
+import { MetaTags } from "react-meta-tags";
 
 export default function Services() {
   const { slug } = useParams();
@@ -20,6 +21,21 @@ export default function Services() {
 
   return (
     <>
+    <MetaTags>
+        <title>{`${serviceF.title} | Modern Towing`}</title>
+        <meta title={`${serviceF.title} | Modern Towing`} />
+        <meta name="description" content={[serviceF.h1]} />
+        <link rel="canonical" href={`Flatbed Towing Service in Andheri | Modern Towing, Best Hydraulic Towing in Andheri | Modern Towing, Two Wheeler Towing Services in Andheri | Modern Towing, Top Car Towing Services For Luxury Car in Andheri, Truck Towing Services in Andheri | Modern Towing   `} />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content={`${serviceF.title} | Modern Towing`} />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://demo.com/" />
+        <meta property="og:description" content="Looking for Top Car Towing Services in Andheri West? Our reliable team offers 24/7 roadside assistance and fast towing solutions for your vehicle emergencies." />
+        <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
+      </MetaTags>
       <section className="page_breadcrumbs cs background_cover section_padding_top_40 section_padding_bottom_40">
         <div className="container">
           <div className="row">
@@ -63,7 +79,7 @@ export default function Services() {
                 <img
                   src={serviceF.img[0]}
                   style={{ objectFit: 'fill' }}
-                  alt="Service Main Image"
+                  alt={serviceF.alt}
                   className='service-img'
                 />
               </div>
@@ -83,14 +99,14 @@ export default function Services() {
                   <div className="p-2 service-img2-cont col-6">
                     <img
                       src={serviceF.img[1]} // Uncomment and use appropriate image source
-                      alt="Additional Image 1"
+                      alt={serviceF.alt}
                       className='service-img'
                     />
                   </div>
                   <div className="p-2 service-img2-cont col-6">
                     <img
                       src={serviceF.img[2]} // Uncomment and use appropriate image source
-                      alt="Additional Image 2"
+                      alt={serviceF.alt}
                       className='service-img'
                     />
                   </div>

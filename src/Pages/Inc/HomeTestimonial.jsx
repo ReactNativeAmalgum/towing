@@ -31,7 +31,7 @@ export default function HomeTestimonial() {
                 >
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi1} alt="Curtis Harrington" />
+                            <img src={testi1} alt="Towing Services Mumbai" />
                             On time, quick, smooth experience at competitive prices. Driver was very experienced and was able to find pickup and drop locations quickly.
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Anmol Mehta</h5>
@@ -40,7 +40,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi2} alt="Jane Doe" />
+                            <img src={testi2} alt="Towing Services Mumbai" />
                             Very prompt and quick response. The towing truck was at my place within 30 mins. My bike was delivered to the service center perfectly.
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Mahetab Khan</h5>
@@ -49,7 +49,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi3} alt="John Smith" />
+                            <img src={testi3} alt="Towing Services Mumbai" />
                             Excellent service for towing my TATA Nexon EV   - very well handled and punctual timing wise   - suresh Karnani
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Sohail Shaikh</h5>
@@ -58,7 +58,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi4} alt="John Smith" />
+                            <img src={testi4} alt="Towing Services Mumbai" />
                             Best towing service i ever received great experience to do a work with you guys
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Kaif ansari</h5>
@@ -67,7 +67,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi5} alt="John Smith" />
+                            <img src={testi5} alt="Towing Services Mumbai" />
                             Very prompt and quick response. The towing truck was at my place within 30 mins. My bike was delivered to the service center perfectly.
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Jude Thomas</h5>
@@ -76,7 +76,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi6} alt="John Smith" />
+                            <img src={testi6} alt="Towing Services Mumbai" />
                             Nice towing on time and provide best service I'm little very satisfied 🥰🥰
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Surendr Tiwari</h5>
@@ -85,7 +85,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi7} alt="John Smith" />
+                            <img src={testi7} alt="Towing Services Mumbai" />
                             On time service and professionaly loaded the vehicle
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Vishal Baradia</h5>
@@ -94,7 +94,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi8} alt="John Smith" />
+                            <img src={testi8} alt="Towing Services Mumbai" />
                             On time and good work no damage to vehicle not even single scratch
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Sabir Shaikh</h5>
@@ -103,7 +103,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi9} alt="John Smith" />
+                            <img src={testi9} alt="Towing Services Mumbai" />
                             On time delivery And provided best services I'm absolutely very satisfied 🥰
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Qasim Shaikh</h5>
@@ -112,7 +112,7 @@ export default function HomeTestimonial() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <blockquote>
-                            <img src={testi10} alt="John Smith" />
+                            <img src={testi10} alt="Towing Services Mumbai" />
                             Modern towing has been a great help very honest super quick and professional and upfront 10/10would recommend
                             <div className="item-meta lightfont">
                                 <h5 className="highlight">Dayasagar Sah</h5>

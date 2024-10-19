@@ -91,7 +91,7 @@ export default function About() {
                 <div className="p-2 about-img-cont ">
                   <img
                     src={galleryData.CLOSED2}
-                    alt="Grid Image 1"
+                    alt="Car Towing Services in Andheri"
                     className='about-img '
                   />
                 </div>
@@ -101,7 +101,7 @@ export default function About() {
                     <div className="p-2 about-img2-cont col-lg-6 col-sm-6">
                       <img
                         src={galleryData.FLATBED2}
-                        alt="Grid Image 1"
+                        alt="Car Towing Services in Andheri"
                         className='about-img'
                       />
 
@@ -110,7 +110,7 @@ export default function About() {
                     <div className="p-2 about-img2-cont col-lg-6 col-sm-6">
                       <img
                         src={galleryData.Flatbed8}
-                        alt="Grid Image 1"
+                        alt="Car Towing Services in Andheri"
                         className='about-img'
                       />
 

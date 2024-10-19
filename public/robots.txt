@@ -1,3 +1,16 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+allow:/
+allow:/flatbed-towing-service-andheri
+allow:/best-hydraulic-towing-andheri
+allow:/two-wheeler-towing-services-andheri
+allow:/top-car-towing-services-for-luxury-car-andheri
+allow:/commercial-interior-designer-thane
+Disallow:/truck-towing-services-andheri  
+allow:/all-types-of-towing-services
+allow:/towing-services-near-andheri
+# Host
+Host: https://demo.com/
+
+# Sitemaps
+Sitemap: https://demo.com/sitemap.xml

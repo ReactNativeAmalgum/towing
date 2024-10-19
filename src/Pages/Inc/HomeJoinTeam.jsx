@@ -180,7 +180,7 @@ export default function HomeJoinTeam() {
             </div>
             <img
                 src="images/hook.png"
-                alt=""
+                alt="Towing Services Mumbai"
                 className="top_image"
                 data-animation="fadeInDown"
             />

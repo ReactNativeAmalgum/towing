@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import { MetaTags } from "react-meta-tags";
 import ContactSection from './Inc/ContactSection'
 const interiorWorkContent = [
   {
@@ -18,22 +19,37 @@ export default function Contact() {
 
   return (
     <>
-        <section className="page_breadcrumbs cs background_cover section_padding_top_40 section_padding_bottom_40">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12 text-center custom-contact-col">
-                <h2>Contact Us</h2>
-                <ol className="breadcrumb">
-                  <li>
-                    <a href="./">Home</a>
-                  </li>
-                  <li className="active">Contact Us</li>
-                </ol>
-              </div>
+      <MetaTags>
+        <title>Towing Services near Andheri | Modern Towing</title>
+        <meta title="Towing Services near Andheri | Modern Towing " />
+        <meta name="description" content="Towing Services Mumbai, Car Towing Services in Andheri, Top Car Towing Services in Andheri West, Flatbed Towing Service in Andheri, Best Hydraulic Towing in Andheri, Two Wheeler Towing Services in Andheri, Top Car Towing Services For Luxury Car in Andheri, Truck Towing Services in Andheri, All Type Of Towing Services, Towing Services near Andheri " />
+        <link rel="canonical" href="https://demo.com/towing-services-near-andheri" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Towing Services near Andheri | Modern Towing " />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://demo.com/" />
+        <meta property="og:description" content="Need towing services near Andheri? Our fast and professional team offers 24/7 roadside assistance and towing solutions. Call us for reliable vehicle recovery!!!" />
+        <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
+      </MetaTags>
+      <section className="page_breadcrumbs cs background_cover section_padding_top_40 section_padding_bottom_40">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 text-center custom-contact-col">
+              <h2>Contact Us</h2>
+              <ol className="breadcrumb">
+                <li>
+                  <a href="./">Home</a>
+                </li>
+                <li className="active">Contact Us</li>
+              </ol>
             </div>
           </div>
-        </section>
-        <section className='special-padding'>
+        </div>
+      </section>
+      <section className='special-padding'>
         <section className="contact-project-version-one">
           <div className="container">
             <div className="row">
