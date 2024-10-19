@@ -49,7 +49,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className='special-padding'>
+      <section className='special-padding' style={{paddingBottom:0}}>
         <section className="contact-project-version-one">
           <div className="container">
             <div className="row">
@@ -88,7 +88,20 @@ export default function Contact() {
           </div>
         </section>
         <ContactSection />
+
+
       </section>
+      <section className="map-section">
+          <div className='map-container'>
+          <iframe
+            className="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.862074096237!2d72.83648747497837!3d19.113705782098652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9db3696221f%3A0xdb0f59d4bad9fd70!2sModern%20Towing!5e0!3m2!1sen!2sin!4v1729342965132!5m2!1sen!2sin"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+            </div>
+        </section>
     </>
   )
 }
