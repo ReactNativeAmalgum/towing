@@ -21,35 +21,35 @@ const HomeBanner = () => {
       id: 1,
       img: galleryData.UNDER1,
       text: "we provide highest quality ",
-      text1: "towing services",
+      text1: "Towing Services Mumbai",
       text2: "Fast, courteous and inexpensive towing and emergency towing services in San Diego",
     },
     {
       id: 2,
       img: galleryData.FLATBED1,
       text: "Top-quality towing you can trust",
-      text1: "towing services",
+      text1: "Towing Services Mumbai",
       text2: "We deliver dependable and professional towing services every time",
     },
     {
       id: 3,
       img: galleryData.BIKE3,
       text: "Safe, fast, and premium towing",
-      text1: "towing services",
+      text1: "Towing Services Mumbai",
       text2: "Our team ensures your vehicle is towed swiftly and securely",
     },
     {
       id: 4,
       img: galleryData.FLATBED3,
       text: "Expert towing, when it matters most",
-      text1: "towing services",
+      text1: "Towing Services Mumbai",
       text2: "In emergencies, trust our skilled towing service to get you back on track",
     },
     {
       id: 5,
       img: galleryData.CLOSED5,
       text: "Quick, reliable towing at its best",
-      text1: "towing services",
+      text1: "Towing Services Mumbai",
       text2: "Experience fast, hassle-free towing services whenever you're stuck",
     },
     {
@@ -86,20 +86,20 @@ const HomeBanner = () => {
       {/* Apply dynamic class based on currentSlide */}
       <div
         className={`text-box ${currentSlide === 1 ? "text-box-left" :
-            currentSlide === 2 ? "text-box-center" :
-              currentSlide === 3 ? "text-box-right" :
-                currentSlide === 4 ? "text-box-left" :
-                  currentSlide === 5 ? "text-box-center" :
-                   "text-box-right" 
+          currentSlide === 2 ? "text-box-center" :
+            currentSlide === 3 ? "text-box-right" :
+              currentSlide === 4 ? "text-box-left" :
+                currentSlide === 5 ? "text-box-center" :
+                  "text-box-right"
           }`}
       >
 
-      <span style={{ backgroundColor: 'white', color: 'black', padding: 10, fontWeight: 500 }} className="category">
-        Mordern, <span style={{ color: '#f35525' }}>Towing</span>
-      </span>
-      <h3 className="txt-h3">{slides[currentSlide].text}</h3>
-      <h3 className="txt-h3-2">{slides[currentSlide].text1}</h3>
-    </div>
+        <span style={{ backgroundColor: 'white', color: 'black', padding: 10, fontWeight: 500 }} className="category">
+          Modern, <span style={{ color: '#f35525' }}>Towing</span>
+        </span>
+        <h3 className="txt-h3">{slides[currentSlide].text}</h3>
+        <h1 className="txt-h3-2">{slides[currentSlide].text1}</h1>
+      </div>
     </div >
   );
 };

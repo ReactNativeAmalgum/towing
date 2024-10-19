@@ -30,7 +30,7 @@ export default function Footer() {
               </div>
             </a>
             <p>
-              Modern Towing has 20 years of experience providing reliable car
+              Modern Towing has 30 years of experience providing reliable car
               towing, luxury and all vehicles transport, heavy vehicle towing, and
               specialized hydraulic towing services, ensuring safe and efficient
               transport for all vehicles.
@@ -72,19 +72,23 @@ export default function Footer() {
                 <div className="row columns_padding_0 columns_margin_0">
                   <div className="col-xs-6">
                     <ul className="greylinks">
+                    <li>
+                        <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
+                        <a href="/">Home</a>
+                      </li>
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
-                        <a href="about">About</a>
+                        <a href="/car-towing-services-andheri">About</a>
                       </li>
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
 
-                        <a href="/service/closedcartowing">Services</a>
+                        <a href="/top-car-towing-services-andheri-west/flatbed-towing-service-andheri">Services</a>
                       </li>
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
 
-                        <a href="/gallery">Gallery</a>
+                        <a href="/all-types-of-towing-services">Gallery</a>
                       </li>
                     </ul>
                   </div>
@@ -93,7 +97,7 @@ export default function Footer() {
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
 
-                        <a href="/contact">Contacts</a>
+                        <a href="/towing-services-near-andheri">Contacts</a>
                       </li>
                     </ul>
                   </div>

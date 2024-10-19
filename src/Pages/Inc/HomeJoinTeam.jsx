@@ -22,8 +22,7 @@ export default function HomeJoinTeam() {
                                     <p className="small-text">Fast and Courteous specialists</p>
                                     <hr className="divider_30_3 zebra_bg" />
                                     <p className="topmargin_90 bottommargin_90 grey">
-                                    Get in touch with us for reliable and prompt towing services. Whether you need assistance on the road or have inquiries about our specialized services, we’re just a call or message away. Reach out today and stay connected for updates and support!
-                                    </p>
+                                    Experience the difference with Modern Towing. Whether you’re facing an emergency or need scheduled towing, trust us to deliver exceptional service every time. Join the thousands of satisfied customers who have relied on our expertise since 2004. For the best Towing Services in Mumbai, look no further—contact us today!                                    </p>
                                     <a style={{textDecoration:'none'}} href="/contact" className="theme_button">
                                         Apply today
                                     </a>

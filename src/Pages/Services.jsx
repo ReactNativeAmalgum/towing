@@ -35,6 +35,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <section className='special-padding'>
       <div className="container custom-service-cont">
         <div className="row">
           {/* First Column with a Card */}
@@ -45,7 +46,7 @@ export default function Services() {
                 <ul className="list-group list-group-flush">
                   {serviceDetail.map((service, index) => (
                     <li key={index} className="list-group-item">
-                      <Link to={`/service/${service.slug}`} className="nav-link">
+                      <Link to={`/top-car-towing-services-andheri-west/${service.slug}`} className="nav-link">
                         <FaLongArrowAltRight /> {' '} {service.title}
                       </Link>
                     </li>
@@ -68,9 +69,13 @@ export default function Services() {
               </div>
 
               <div className='service-descp custom-padding'>
-                <h3 className="title-with-line">{serviceF.title}</h3>
+                <h1 className="specialh1 underline serviceh1" >{serviceF.h1}</h1>
                 <p>{serviceF.descp1}</p>
                 <p>{serviceF.descp2}</p>
+                <p>{serviceF.descp3}</p>
+                <p>{serviceF.descp4}</p>
+                <p>{serviceF.descp5}</p>
+                <p>{serviceF.descp6}</p>
               </div>
 
               <div className='container custom-img-cont custom-padding'>
@@ -94,7 +99,6 @@ export default function Services() {
 
               <div className='custom-padding'>
                 <h3 className="title-with-line">Our Work Process</h3>
-                <p>{serviceF.descp3}</p>
                 <div className='service-check-cont'>
                   <ul>
                     <li><FaCheck style={{ fontSize: 'medium' }} /> {' '}{serviceF.list1}</li>
@@ -104,13 +108,14 @@ export default function Services() {
                   </ul>
                 </div>
                 <h3 className="title-with-line">Service Features</h3>
-                <p>{serviceF.descp4}</p>
+                <p style={{paddingTop:20}}>{serviceF.specialfeature}</p>
               </div>
 
             </div>
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

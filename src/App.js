@@ -18,11 +18,11 @@ export default function App() {
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/service' element={<Service />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path="/service/:slug" element={<Service />} />
+          <Route path='/car-towing-services-andheri' element={<About />} />
+          <Route path='/all-types-of-towing-services' element={<Gallery />} />
+          <Route path='/Top Car Towing Services in Andheri West' element={<Service />} />
+          <Route path='/towing-services-near-andheri' element={<Contact />} />
+          <Route path="/top-car-towing-services-andheri-west/:slug" element={<Service />} />
           <Route path='*' element={<NotFound />} /> {/* Catch-all route for 404 */}
 
         </Routes>

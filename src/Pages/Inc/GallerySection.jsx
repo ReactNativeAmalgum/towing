@@ -27,13 +27,14 @@ function GallerySection() {
   const interiorWorkContent = [
     {
       descp1:
-        "Welcome to our gallery, where you can explore a diverse collection of images and videos showcasing our wide range of towing services. Here, you’ll find high-quality photos of various vehicles we have transported, including cars, motorcycles, trucks, and luxury and all vehicle. Each image captures our commitment to safety and professionalism, illustrating how we handle every towing job with precision and cared.",
+        `Welcome to the Gallery page of Modern Towing, where we showcase our expertise in All Type Of Towing Services. At Modern Towing, we take pride in offering a wide range of towing solutions tailored to meet the diverse needs of our clients. Whether it’s a flatbed towing service, hydraulic towing for heavy vehicles, or specialized luxury car towing, our gallery highlights the various situations in which we have successfully provided assistance.`,
       descp2:
-        " Our gallery highlights not only the vehicles we tow but also the advanced equipment we use to ensure efficient service. From flatbed trucks to specialized carriers for luxury cars, each photo reflects our dedication to maintaining the highest standards in the towing industry. You'll see our skilled team in action, demonstrating their expertise in various scenarios, whether it’s a routine tow or an emergency situation.",
+        "We understand that each vehicle requires specific handling techniques, and that's why our team is trained to deliver All Type Of Towing Services with precision and care. From two-wheelers to large trucks, we ensure that your vehicle is safely transported to its destination, no matter the size or situation. You can explore our gallery to see the dedication and quality of service we bring to each job. Every image is a testament to our commitment to safety and efficiency, ensuring customer satisfaction every step of the way.",
       descp3:
-        "In addition to images, we also feature videos that showcase the towing process. Watch as our professionals safely load and transport vehicles, providing you with a behind-the-scenes look at how we operate. These videos highlight our techniques and the safety measures we take to ensure the protection of your vehicle during transit.",
+        "Modern Towing has built a reputation for reliability and professionalism, offering All Type Of Towing Services throughout Andheri and beyond. Our equipment is top-notch, and we use state-of-the-art technology to ensure the safe handling of vehicles in all conditions, whether it's a roadside breakdown or scheduled transportation. The gallery page is just a glimpse of our day-to-day operations and the various types of vehicles we handle, from luxury cars to heavy-duty trucks. You can count on us to be there when you need assistance, and our work speaks for itself.",
       descp4:
         "We believe that transparency and showcasing our work are essential to building trust with our customers. Our gallery serves as a testament to our experience and reliability in the towing industry, reinforcing our commitment to providing top-notch service. Feel free to browse through our collection, and if you have any questions or need assistance, don’t hesitate to reach out to us. We’re here to help with all your towing needs!",
+      descp5:"Feel free to browse through the images and videos in our gallery to get a better idea of the services we offer and how we handle each vehicle with care and professionalism. At Modern Towing, your satisfaction is our top priority, and we are committed to delivering the best possible experience with every tow."
     },
   ];
 
@@ -42,17 +43,9 @@ function GallerySection() {
   };
   return (
     <>
-      <section>
-        <div className="gall-banner">
-          <div className="contacttt-p">
-            <h1 style={{ color: "white" }}>Gallery</h1>
-          </div>
-        </div>
-      </section>
-
-      <section id="project-version-one">
+    <section className="special-padding">
+      <section className="project-version-one">
         <div className="container">
-          <div className="row"></div>
           <div className="row">
             <div className="col-lg-12">
               <div style={{ marginBottom: 0 }} className="section-heading">
@@ -72,6 +65,13 @@ function GallerySection() {
                   <p key={index} className="interior-work-paragraph">
                     {item.descp3}
                     {item.descp4}
+                  </p>
+                ))}
+              </div>
+              <div className="interior-work-container">
+                {interiorWorkContent.map((item, index) => (
+                  <p key={index} className="interior-work-paragraph">
+                    {item.descp5}
                   </p>
                 ))}
               </div>
@@ -166,6 +166,7 @@ function GallerySection() {
             })}
           </div>
         </div>
+      </section>
       </section>
     </>
   );

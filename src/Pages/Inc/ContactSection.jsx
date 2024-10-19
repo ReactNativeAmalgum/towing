@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 import '../../Pages/Contact.css'
 export default function ContactSection() {
     return (
-        <section className="ls columns_padding_25 section_padding_top_75 section_padding_bottom_100 columns_margin_bottom_60">
+        <section className="ls columns_padding_25   columns_margin_bottom_60">
             <div className="container">
                 <div className="row">
                     <div
@@ -128,8 +128,8 @@ export default function ContactSection() {
                         </h2>
                         <hr className="divider_30_3 bottommargin_30 divider_left zebra_bg" />
                         <div className="small-teaser media">
-                            <div  className="media-left">
-                                <FaMapMarkerAlt style={{paddingRight:20}} className="highlight fa fa-map-marker" />
+                            <div className="media-left">
+                                <FaMapMarkerAlt style={{ paddingRight: 20 }} className="highlight fa fa-map-marker" />
 
                             </div>
                             <div className="media-body"  > Shop no 2 om sai darshan building C D Barfiwala road juhu cross lane andheri west mumbai 400058</div>
@@ -138,20 +138,20 @@ export default function ContactSection() {
                             <div className="media-left">
                                 <MdEmail className="highlight fa fa-envelope" />
                             </div>
-                            <div className="media-body" style={{paddingRight:20}} > info@moderntowing.in</div>
+                            <div className="media-body" style={{ paddingRight: 20 }} > info@moderntowing.in</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
-                                <FaPhoneAlt className="highlight fa fa-phone" /> 
-                            </div> 
-                            <div className="media-body" style={{paddingRight:20}} >9820849090 / 9820842020 / 9820848080</div>
+                                <FaPhoneAlt className="highlight fa fa-phone" />
+                            </div>
+                            <div className="media-body" style={{ paddingRight: 20 }} >9820849090 / 9820842020 / 9820848080</div>
                         </div>
                         <div className="small-teaser media">
                             <div className="media-left">
 
                                 <FaClock className="highlight fa fa-clock-o" />
                             </div>
-                            <div className="media-body" style={{paddingRight:20}} > 24 hours a day, 7 days a week</div>
+                            <div className="media-body" style={{ paddingRight: 20 }} > 24 hours a day, 7 days a week</div>
                         </div>
                     </div>
                     {/*.col-* */}

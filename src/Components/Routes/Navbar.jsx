@@ -40,7 +40,7 @@ function Header() {
             <NavLink to="/" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
               Home
             </NavLink>
-            <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
+            <NavLink to="/car-towing-services-andheri" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
               About
             </NavLink>
 
@@ -50,19 +50,19 @@ function Header() {
               title={
                 <span
                   style={{ color: 'black', fontWeight: 700, fontSize: 18 }}
-                  className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
+                  className={location.pathname.startsWith('/top-car-towing-services-andheri-west') ? 'link active' : 'link'}
                 >
                   Services
                 </span>
               }
               id="basic-nav-dropdown"
-              className={location.pathname.startsWith('/service') ? 'link active' : 'link'}
+              className={location.pathname.startsWith('/top-car-towing-services-andheri-west') ? 'link active' : 'link'}
             >
               {serviceDetail.map((s, i) => (
                 <NavDropdown.Item key={i}>
                   <Link
-                    className={`linkdeco ${location.pathname === `/service/${s.slug}` ? 'active' : ''}`}
-                    to={`/service/${s.slug}`}
+                    className={`linkdeco ${location.pathname === `/top-car-towing-services-andheri-west/${s.slug}` ? 'active' : ''}`}
+                    to={`/top-car-towing-services-andheri-west/${s.slug}`}
                     onClick={handleLinkClick} // Close both dropdown and navbar
                   >
                     {s.title}
@@ -71,10 +71,10 @@ function Header() {
               ))}
             </NavDropdown>
 
-            <NavLink to="/gallery" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
+            <NavLink to="/all-types-of-towing-services" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
               Gallery
             </NavLink>
-            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
+            <NavLink to="/towing-services-near-andheri" className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')} onClick={handleLinkClick}>
               Contact Us
             </NavLink>
           </Nav>

@@ -16,7 +16,11 @@ export default function HomeService() {
                             <strong> Services</strong>
                         </h2>
                         <p className="small-text">Emergency car towing service & closed car carrier service</p>
+                        <p style={{textAlign:'justify'}}>
+                        When it comes to Towing Services in Mumbai, Modern Towing is synonymous with quality and reliability. Our commitment to excellence ensures that you receive not only the best towing services but also peace of mind during challenging situations. We prioritize your safety and satisfaction, making every effort to meet your towing needs promptly and professionally.
+                        </p>
                         <hr className="divider_30_3 zebra_bg" />
+
                     </div>
                 </div>
                 <div className="row topmargin_30">
@@ -31,7 +35,7 @@ export default function HomeService() {
                                     <h4 className="regular title-cont">
                                         <a href={`/service/${service.slug}`}>{service.title}</a>
                                     </h4>
-                                    <p>
+                                    <p className='serviceDescription'>
                                         {service.homeDescp}
                                     </p>
                                 </div>

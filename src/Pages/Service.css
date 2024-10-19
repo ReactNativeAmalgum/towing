@@ -1,16 +1,27 @@
+.serviceh1 {
+  text-transform: capitalize;
+  font-weight: 450 !important;
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+}
+
 .custom-service-col {
   /* border: 1px solid black; */
 }
-.card{
-    border:0px !important;
+
+.card {
+  border: 0px !important;
 }
+
 .custom-img-cont {
   display: flex;
 }
+
 .custom-padding {
   padding: 5px;
   padding-top: 3%;
 }
+
 .service-img-cont {
   height: 450px;
   width: 100%;
@@ -18,18 +29,22 @@
   border-radius: 10px;
   flex-wrap: wrap;
 }
+
 .service-img-cont img {
   height: 100%;
-  width: 100%; 
+  width: 100%;
   border-radius: 10px;
 }
+
 .custom-service-cont {
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
+
 .service-img2-cont {
   height: 300px;
   width: 450px;
 }
+
 .service-img2-cont img {
   width: 100%;
   border-radius: 10px;
@@ -42,10 +57,11 @@
   font-family: "Inter", sans-serif;
   line-height: 1.2;
 }
+
 .custom-service-cont p {
   font-size: 16px !important;
   color: #787878;
-  padding-top: 2%;
+  /* padding-top: 2%; */
   font-family: "Sergio", sans-serif !important;
 }
 
@@ -56,6 +72,7 @@
   /* margin-bottom: 30px; */
   border-radius: 10px;
 }
+
 .card-title {
   padding-bottom: 10px;
   margin-bottom: 30px;
@@ -66,13 +83,15 @@
   color: black;
 }
 
-.list-group{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    border:0px !important; 
+.list-group {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border: 0px !important;
 }
+
 .list-group-item svg {
-    color: #ff0000;}
+  color: #ff0000;
+}
 
 .list-group .list-group-item a {
   font-size: 16px !important;
@@ -92,69 +111,85 @@
 }
 
 .list-group .list-group-item a {
-  transition: transform 0.3s ease; /* Smooth transition */
+  transition: transform 0.3s ease;
+  /* Smooth transition */
 }
 
 .list-group .list-group-item a:focus,
 .list-group .list-group-item a:active {
   color: #ff0000;
-  transform: translateX(
-    20px
-  ) !important; /* Moves the element 20px to the right when clicked or focused */
+  transform: translateX(20px) !important;
+  /* Moves the element 20px to the right when clicked or focused */
 }
 
 
 .service-check-cont {
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; 
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 10px;
 
 }
 
 .service-check-cont ul {
-    list-style-type: none; /* Remove default list style */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+  list-style-type: none;
+  /* Remove default list style */
+  padding: 0;
+  /* Remove default padding */
+  margin: 0;
+  /* Remove default margin */
 }
 
 .service-check-cont li {
-    display: flex; /* Flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    padding: 10px 0; /* Padding for each list item */
-    font-size: 16px; /* Font size for text */
-    color: #333; /* Text color */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+  display: flex;
+  /* Flexbox for alignment */
+  align-items: center;
+  /* Center items vertically */
+  padding: 10px 0;
+  /* Padding for each list item */
+  font-size: 16px;
+  /* Font size for text */
+  color: #333;
+  /* Text color */
+  transition: color 0.3s ease;
+  /* Smooth color transition on hover */
 }
 
 
 
 .service-check-cont li svg {
-    margin-right: 10px; /* Space between icon and text */
-    color: #ff0000; /* Change color on hover */
+  margin-right: 10px;
+  /* Space between icon and text */
+  color: #ff0000;
+  /* Change color on hover */
 }
 
 .title-with-line {
-  position: relative; /* Allows the line to be positioned relative to the title */
-  display: inline-block; /* Makes the element only take up the width of the content */
-  margin-bottom: 10px; /* Space between the title and the line */
+  position: relative;
+  /* Allows the line to be positioned relative to the title */
+  display: inline-block;
+  /* Makes the element only take up the width of the content */
+  margin-bottom: 10px;
+  /* Space between the title and the line */
 }
 
 .title-with-line::after {
-  content: ""; 
-  display: block; 
-  width: 100%; 
+  content: "";
+  display: block;
+  width: 100%;
   height: 2px;
   background-color: #ff0000;
-  position: absolute; 
-  left: 0; 
-  bottom: -5px; 
+  position: absolute;
+  left: 0;
+  bottom: -5px;
 }
 
-@media(max-width:426px){
-  .custom-service-imgrow{
+@media(max-width:426px) {
+  .custom-service-imgrow {
     display: flex;
     flex-direction: column;
   }
-  .service-img2-cont  {
+
+  .service-img2-cont {
     width: 100% !important;
   }
 }

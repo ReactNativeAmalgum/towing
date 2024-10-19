@@ -39,3 +39,18 @@ strong {
 .small-teaser{
   gap:5px;
 }
+.ls .contactdecp{
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+
+}
+
+.contactdecp p{
+  text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .container, .container-sm {
+      max-width: 100% !important;
+  }
+}

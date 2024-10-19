@@ -36,6 +36,8 @@ import CLOSED5 from './closedCar5.jpg'
 import CLOSED6 from './closedCar6.jpg'
 import UNDER1 from "./underLight.jpg";
 import heavy from './heavy.jpg'
+import heavy1 from './heavy1.jpg'
+import heavy2 from './heavy2.jpg'
 
 
 const galleryData = {
@@ -76,6 +78,8 @@ const galleryData = {
   LOGO: logo,
   UNDER1: UNDER1,
   HEAVY:heavy,
+  HEAVY1:heavy1,
+  HEAVY2:heavy2,
 };
 
 export default galleryData;
