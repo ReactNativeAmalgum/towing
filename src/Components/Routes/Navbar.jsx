@@ -25,7 +25,7 @@ function Header() {
   };
 
   return (
-    <Navbar expanded={navbarExpanded} onToggle={setNavbarExpanded} style={{ backgroundColor: 'white', color: 'black' }} expand="lg" className="navbar-cont">
+    <Navbar expanded={navbarExpanded} onToggle={setNavbarExpanded} style={{ backgroundColor: 'black', color: 'white' }} expand="lg" className="navbar-cont">
       <Container fluid>
         <Navbar.Brand href="#">
           <img
@@ -49,7 +49,7 @@ function Header() {
               onClick={handleDropdownClick} // Toggle dropdown on title click
               title={
                 <span
-                  style={{ color: 'black', fontWeight: 700, fontSize: 18 }}
+                  style={{ color: 'white', fontWeight: 700, fontSize: 18 }}
                   className={location.pathname.startsWith('/top-car-towing-services-andheri-west') ? 'link active' : 'link'}
                 >
                   Services

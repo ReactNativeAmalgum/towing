@@ -101,6 +101,57 @@ export const WorkTab = [
     category: "flatbed",
     imageUr1: gallerData.Flatbed21,
   },
+  {
+    id: 21,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed23,
+  },
+  {
+    id: 22,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed24,
+  },
+  {
+    id: 23,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed25,
+  },
+  {
+    id: 24,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed26,
+  },
+  {
+    id: 25,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed27,
+  },
+  {
+    id: 26,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed28,
+  },
+  {
+    id: 27,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed27,
+  },
+  {
+    id: 28,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed28,
+  },
+  {
+    id: 22,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed29,
+  },
+  {
+    id: 22,
+    category: "flatbed",
+    imageUr1: gallerData.Flatbed30,
+  },
+
   // *******************************bike CAR**********************************
   {
     id: 1,
@@ -118,11 +169,51 @@ export const WorkTab = [
     category: "bike",
     imageUr1: gallerData.BIKE2,
   },
+  {
+    id: 4,
+    category: "bike",
+    imageUr1: gallerData.BIKE4,
+  },
+  {
+    id: 5,
+    category: "bike",
+    imageUr1: gallerData.BIKE5,
+  },
+  {
+    id: 6,
+    category: "bike",
+    imageUr1: gallerData.BIKE6,
+  },
+  {
+    id: 7,
+    category: "bike",
+    imageUr1: gallerData.BIKE7,
+  },
+  {
+    id: 8,
+    category: "bike",
+    imageUr1: gallerData.BIKE8,
+  },
+  {
+    id: 9,
+    category: "bike",
+    imageUr1: gallerData.BIKE9,
+  },
+  {
+    id: 10,
+    category: "bike",
+    imageUr1: gallerData.BIKE10,
+  },
   // *******************************Heavy vehichle**********************************
   {
     id: 1,
     category: "heavy",
     imageUr1: gallerData.HEAVY,
+  },
+  {
+    id: 2,
+    category: "heavy",
+    imageUr1: gallerData.heavy3,
   },
 
   // *******************************CLOSED CAR**********************************
@@ -137,14 +228,29 @@ export const WorkTab = [
     imageUr1: gallerData.CLOSED2,
   },
   {
-    id: 2,
+    id: 3,
     category: "closed",
     imageUr1: gallerData.CLOSED3,
   },
   {
-    id: 3,
+    id: 4,
     category: "closed",
     imageUr1: gallerData.CLOSED4,
+  },
+  {
+    id: 5,
+    category: "closed",
+    imageUr1: gallerData.CLOSED5,
+  },
+  {
+    id: 6,
+    category: "closed",
+    imageUr1: gallerData.CLOSED6,
+  },
+  {
+    id: 7,
+    category: "closed",
+    imageUr1: gallerData.CLOSED7,
   },
   // *******************************UNEDER CAR**********************************
   {
@@ -152,7 +258,81 @@ export const WorkTab = [
     category: "under",
     imageUr1: gallerData.UNDER1,
   },
-
+  {
+    id: 2,
+    category: "under",
+    imageUr1: gallerData.UNDER2,
+  },
+  {
+    id: 3,
+    category: "under",
+    imageUr1: gallerData.UNDER3,
+  },
+  {
+    id: 4,
+    category: "under",
+    imageUr1: gallerData.UNDER4,
+  },
+  {
+    id: 5,
+    category: "under",
+    imageUr1: gallerData.UNDER5,
+  },
+  {
+    id: 6,
+    category: "under",
+    imageUr1: gallerData.UNDER6,
+  },
+  {
+    id: 7,
+    category: "under",
+    imageUr1: gallerData.UNDER7,
+  },
+  {
+    id: 8,
+    category: "under",
+    imageUr1: gallerData.UNDER8,
+  },
+  {
+    id: 9,
+    category: "under",
+    imageUr1: gallerData.UNDER9,
+  },
+  {
+    id: 10,
+    category: "under",
+    imageUr1: gallerData.UNDER10,
+  },
+  {
+    id: 11,
+    category: "under",
+    imageUr1: gallerData.UNDER11,
+  },
+  {
+    id: 12,
+    category: "under",
+    imageUr1: gallerData.UNDER12,
+  },
+  {
+    id: 13,
+    category: "under",
+    imageUr1: gallerData.UNDER13,
+  },
+  {
+    id: 14,
+    category: "under",
+    imageUr1: gallerData.UNDER14,
+  },
+  {
+    id: 15,
+    category: "under",
+    imageUr1: gallerData.UNDER15,
+  },
+  {
+    id: 16,
+    category: "under",
+    imageUr1: gallerData.UNDER16,
+  },
   //////////////////// Video ///////////////////////
   {
     id: 1,
@@ -182,9 +362,5 @@ export const WorkTab = [
     imageUr1: gallerData.VIDEO4,
     link: "https://www.youtube.com/watch?app=desktop&v=kfA4iEjNK_Q",
   },
-  {
-    id: 4,
-    category: gallerData.VIDEO5,
 
-  }
 ];

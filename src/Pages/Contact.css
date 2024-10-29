@@ -85,3 +85,8 @@ strong {
     height: 300px; /* Further adjust height for very small screens */
   }
 }
+
+
+.form-group .error-text{
+  color: red; 
+}

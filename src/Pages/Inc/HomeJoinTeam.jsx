@@ -2,6 +2,7 @@ import React from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
 import './HomeJoinTeam.css'
 import { FaCalendarAlt } from 'react-icons/fa'
+import galleryData from '../../Components/Assets/galleryData'
 export default function HomeJoinTeam() {
     return (
         <section
@@ -178,12 +179,7 @@ export default function HomeJoinTeam() {
                     </div>
                 </div>
             </div>
-            <img
-                src="images/hook.png"
-                alt="Towing Services Mumbai"
-                className="top_image"
-                data-animation="fadeInDown"
-            />
+           
         </section>
 
     )

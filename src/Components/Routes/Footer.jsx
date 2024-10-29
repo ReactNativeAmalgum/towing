@@ -26,7 +26,7 @@ export default function Footer() {
           >
             <a href="./" className="logo">
               <div style={{ width: 80 }}>
-                <img src={galleryData.LOGO} alt="Towing Services Mumbai" />
+                <img style={{backgroundColor:'white'}} src={galleryData.LOGO} alt="Towing Services Mumbai" />
               </div>
             </a>
             <p>
