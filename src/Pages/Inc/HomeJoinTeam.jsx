@@ -232,12 +232,12 @@ export default function HomeJoinTeam() {
                                                     </label>
                                                     <input
                                                         type="date"
-
+                                                        style={{justifyContent:'center', textAlign:'left', display:'flex'}}
                                                         name="tow-date"
                                                         id="tow-date"
                                                         defaultValue=""
                                                         className="form-control"
-                                                        placeholder="Type date"
+                                                        placeholder=""
                                                     />
 
                                                     <FaCalendarAlt className="fa fa-calendar grey" />
