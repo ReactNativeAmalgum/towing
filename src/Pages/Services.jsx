@@ -62,7 +62,7 @@ export default function Services() {
                 <ul className="list-group list-group-flush">
                   {serviceDetail.map((service, index) => (
                     <li key={index} className="list-group-item">
-                      <Link to={`/top-car-towing-services-andheri-west/${service.slug}`} className="nav-link">
+                      <Link to={`/${service.slug}`} className="nav-link">
                         <FaLongArrowAltRight /> {' '} {service.title}
                       </Link>
                     </li>

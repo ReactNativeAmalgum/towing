@@ -62,7 +62,7 @@ function Header() {
                 <NavDropdown.Item key={i}>
                   <Link
                     className={`linkdeco ${location.pathname === `/top-car-towing-services-andheri-west/${s.slug}` ? 'active' : ''}`}
-                    to={`/top-car-towing-services-andheri-west/${s.slug}`}
+                    to={`/${s.slug}`}
                     onClick={handleLinkClick} // Close both dropdown and navbar
                   >
                     {s.title}

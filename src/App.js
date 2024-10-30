@@ -21,7 +21,7 @@ export default function App() {
           <Route path='/all-types-of-towing-services' element={<Gallery />} />
           <Route path='/Top Car Towing Services in Andheri West' element={<Service />} />
           <Route path='/towing-services-near-andheri' element={<Contact />} />
-          <Route path="/top-car-towing-services-andheri-west/:slug" element={<Service />} />
+          <Route path="/:slug" element={<Service />} />
           <Route path='*' element={<Page404 />} /> {/* Catch-all route for 404 */}
 
         </Routes>
