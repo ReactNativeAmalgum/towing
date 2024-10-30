@@ -69,13 +69,13 @@ export default function ContactSection() {
 
 
     return $.post("https://skdm.in/server/v1/send_lead_mail.php", {
-      toEmail: "mukundsharma1085@gmail.com",
-      fromEmail: "reactnativeamalgum@gmail.com",
-      bccMail: "reactnativeamalgum@gmail.com",
+      toEmail: "mordentowing36@gmail.com",
+      fromEmail: "skdmlead@gmail.com",
+      bccMail: "skdmlead@gmail.com",
       mailSubject: "New Customer Lead",
       mailBody: body,
       accountName: "Just Mirror Saloon",
-      accountLeadSource: "https://demo.co.in/",
+      accountLeadSource: "https://moderntowing.in/",
       accountLeadName: custName,
     });
   
