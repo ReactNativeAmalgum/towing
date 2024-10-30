@@ -185,7 +185,7 @@ export default function ContactSection() {
               <div className="media-left">
                 <MdEmail className="highlight" />
               </div>
-              <div className="media-body" style={{ paddingRight: 20 }}>info@moderntowing.in</div>
+              <div className="media-body" style={{ paddingRight: 20 }}>mordentowing36@gmail.com</div>
             </div>
             <div className="small-teaser media">
               <div className="media-left">
