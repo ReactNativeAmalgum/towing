@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Gallery from './Pages/Gallery.jsx'
@@ -33,12 +33,22 @@ export default function App() {
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '100px', right: '50px' }}>
           <div style={{ backgroundColor: 'white', padding: 6, borderRadius: 50, display: 'inline-block' }}>
 
-            <FaSquareWhatsapp style={{ backgroundColor: 'white', borderRadius: 10, }} size={50} color='#25D366' />
+          {/* <FaSquareWhatsapp style={{ backgroundColor: 'white', borderRadius: 10, }} size={50} color='#25D366' /> */}
+          <Link
+            to="https://wa.me/9820849090"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp size={50} color='green' />
+          </Link>
           </div>
         </div>
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', right: '50px', justifyContent: 'center', alignContent: 'center' }}>
           <div style={{ backgroundColor: 'white', padding: 5, borderRadius: 50, display: 'inline-block' }}>
+            <Link to={'https://www.youtube.com/@moderntowing3836'}>
             <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%' }} size={'3x'} color='red' icon={faYoutube} />
+
+            </Link>
           </div>
         </div>
       </>
