@@ -7,6 +7,7 @@ import {
   FaLocationArrow,
   FaPhone,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
@@ -49,11 +50,11 @@ export default function Footer() {
                   <FaFacebook className="social-icon theme-color-icon soc-twitter" />
                 </Link>
                 <Link
-                  to="https://wa.me/9820849090"
+                  to="https://www.youtube.com/@moderntowing3836"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaWhatsapp className="social-icon theme-color-icon soc-twitter" />
+                  <FaYoutube className="social-icon theme-color-icon soc-twitter" />
                 </Link>
               </div>
             </p>

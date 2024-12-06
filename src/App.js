@@ -10,7 +10,7 @@ import Footer from './Components/Routes/Footer.jsx'
 import Page404 from './Pages/Page404.jsx'
 import { FaSquareWhatsapp, FaWhatsapp, } from "react-icons/fa6";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
+import { faCoffee, faPhone } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function App() {
@@ -30,7 +30,7 @@ export default function App() {
 
         </Routes>
         <Footer />
-        <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '100px', right: '50px' }}>
+        <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', left: '50px' }}>
           <div style={{ backgroundColor: 'white', padding: 6, borderRadius: 50, display: 'inline-block' }}>
 
           {/* <FaSquareWhatsapp style={{ backgroundColor: 'white', borderRadius: 10, }} size={50} color='#25D366' /> */}
@@ -45,8 +45,8 @@ export default function App() {
         </div>
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', right: '50px', justifyContent: 'center', alignContent: 'center' }}>
           <div style={{ backgroundColor: 'white', padding: 5, borderRadius: 50, display: 'inline-block' }}>
-            <Link to={'https://www.youtube.com/@moderntowing3836'}>
-            <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%' }} size={'3x'} color='red' icon={faYoutube} />
+            <Link to={'tel:9820849090'}>
+            <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%', }} size={'2x'} color='rgba(255, 195, 38, .95)' icon={faPhone} />
 
             </Link>
           </div>
