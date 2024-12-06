@@ -63,7 +63,7 @@ export default function HomeJoinTeam() {
 
 
         return $.post("https://skdm.in/server/v1/send_lead_mail.php", {
-            toEmail: "mordentowing36@gmail.com",
+            toEmail: "moderntowing36@gmail.com",
             fromEmail: "skdmlead@gmail.com",
             bccMail: "skdmlead@gmail.com",
             mailSubject: "New Customer Lead",

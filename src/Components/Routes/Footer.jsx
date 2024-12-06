@@ -130,7 +130,7 @@ export default function Footer() {
                 <i className="fa fa-envelope highlight fontsize_18" />
                 <div className="media-body greylinks">
                   <MdEmail style={{ color: "#ff0000", marginRight: 20 }} />
-                  <a href="mailto:your@mail.com">mordentowing36@gmail.com</a>
+                  <a href="mailto:your@mail.com">moderntowing36@gmail.com</a>
                 </div>
               </div>
               <div className="media small-teaser custom-small-teaser">

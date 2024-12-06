@@ -23,14 +23,14 @@ export default function Contact() {
         <title>Towing Services near Andheri | Modern Towing</title>
         <meta title="Towing Services near Andheri | Modern Towing " />
         <meta name="description" content="Towing Services Mumbai, Car Towing Services in Andheri, Top Car Towing Services in Andheri West, Flatbed Towing Service in Andheri, Best Hydraulic Towing in Andheri, Two Wheeler Towing Services in Andheri, Top Car Towing Services For Luxury Car in Andheri, Truck Towing Services in Andheri, All Type Of Towing Services, Towing Services near Andheri " />
-        <link rel="canonical" href="https://demo.com/towing-services-near-andheri" />
+        <link rel="canonical" href="https://arogyayoghome.com/towing-services-near-andheri" />
         <meta http-equiv="cache-control" content="no-cache" />
         <meta http-equiv="expires" content="0" />
         <meta http-equiv="pragma" content="no-cache" />
         <meta property="og:title" content="Towing Services near Andheri | Modern Towing " />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://demo.com/" />
+        <meta property="og:url" content="https://arogyayoghome.com/" />
         <meta property="og:description" content="Need towing services near Andheri? Our fast and professional team offers 24/7 roadside assistance and towing solutions. Call us for reliable vehicle recovery!!!" />
         <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
       </MetaTags>

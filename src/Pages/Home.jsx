@@ -7,11 +7,16 @@ import HomeService from './Inc/HomeService'
 import HomeJoinTeam from './Inc/HomeJoinTeam'
 import HomeTestimonial from './Inc/HomeTestimonial'
 import { MetaTags } from "react-meta-tags";
+import { FaSquareWhatsapp, FaWhatsapp, } from "react-icons/fa6";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+
 
 export default function Home() {
   return (
     <>
-        <MetaTags>
+      <MetaTags>
         <title>{`Towing Services Mumbai | Modern Towing`}</title>
         <meta title={`Towing Services Mumbai | Modern Towing `} />
         <meta name="description" content="Towing Services Mumbai, Car Towing Services in Andheri, Top Car Towing Services in Andheri West, Flatbed Towing Service in Andheri, Best Hydraulic Towing in Andheri, Two Wheeler Towing Services in Andheri, Top Car Towing Services For Luxury Car in Andheri, Truck Towing Services in Andheri, All Type Of Towing Services, Towing Services near Andheri " />
@@ -32,6 +37,7 @@ export default function Home() {
       <HomeFeature />
       <HomeService />
       <HomeJoinTeam />
+
       <HomeTestimonial />
     </>
   )
