@@ -31,7 +31,7 @@ export default function App() {
         </Routes>
         <Footer />
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', right: '50px' }}>
-          <div style={{ backgroundColor: 'white', padding: 6, borderRadius: 50, display: 'inline-block' }}>
+          <div style={{ padding: 6, borderRadius: 50, display: 'inline-block' }}>
 
           {/* <FaSquareWhatsapp style={{ backgroundColor: 'white', borderRadius: 10, }} size={50} color='#25D366' /> */}
           <Link
@@ -44,9 +44,9 @@ export default function App() {
           </div>
         </div>
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', left: '50px', justifyContent: 'center', alignContent: 'center' }}>
-          <div style={{ backgroundColor: 'white', padding: 5, borderRadius: 50, display: 'inline-block' }}>
-            <Link to={'tel:'}>
-            <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%', }} size={'2x'} color='rgba(255, 195, 38, .95)' icon={faPhone} />
+          <div style={{ padding: 5, borderRadius: 50, display: 'inline-block' }}>
+            <Link to={'tel:9820849090'}>
+            <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%', }} size={'2x'} color='#99ccff.' icon={faPhone} />
 
             </Link>
           </div>

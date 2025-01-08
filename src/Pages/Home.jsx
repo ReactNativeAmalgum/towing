@@ -27,7 +27,7 @@ export default function Home() {
         <meta property="og:title" content={`Towing Services Mumbai | Modern Towing `} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://demo.com/" />
+        <meta property="og:url" content="https://moderntowing.in/" />
         <meta property="og:description" content="Looking for prompt and reliable Towing Services in Mumbai? Our 24/7 roadside assistance is just a call away. Get professional help for a car in one call." />
         <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
       </MetaTags>

@@ -32,7 +32,7 @@ export default function Services() {
         <meta property="og:title" content={`${serviceF.title} | Modern Towing`} />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://demo.com/" />
+        <meta property="og:url" content="https://moderntowing.in/" />
         <meta property="og:description" content="Looking for Top Car Towing Services in Andheri West? Our reliable team offers 24/7 roadside assistance and fast towing solutions for your vehicle emergencies." />
         <meta property="og:image" content="https://kinararesort.in/static/media/logo.146c55d2a549f20e2963.png" />
       </MetaTags>

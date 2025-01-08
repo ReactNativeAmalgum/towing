@@ -10,7 +10,7 @@ Disallow:/truck-towing-services-andheri
 allow:/all-types-of-towing-services
 allow:/towing-services-near-andheri
 # Host
-Host: https://demo.com/
+Host: https://moderntowing.in/
 
 # Sitemaps
-Sitemap: https://demo.com/sitemap.xml
+Sitemap: https://moderntowing.in/sitemap.xml
