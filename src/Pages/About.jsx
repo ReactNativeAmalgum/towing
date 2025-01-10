@@ -78,7 +78,7 @@ export default function About() {
                 </ul>
               </div>
               <div className='wpb_wrapper'>
-                <Link style={{ textDecoration: 'none' }} onClick={() => window.scrollTo(0, 0)} to="/top-car-towing-services-andheri-west/flatbed-towing-service-andheri" >
+                <Link style={{ textDecoration: 'none' }} onClick={() => window.scrollTo(0, 0)} to="/flatbed-towing-service-andheri" >
                   <span style={{ color: 'white', }}>OUR SERVICES</span>
                 </Link>
 
