@@ -84,7 +84,7 @@ export default function Footer() {
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />
 
-                        <a href="/top-car-towing-services-andheri-west/flatbed-towing-service-andheri">Services</a>
+                        <a href="/flatbed-towing-service-andheri">Services</a>
                       </li>
                       <li>
                         <MdKeyboardArrowRight style={{ color: "#ff0000" }} />

@@ -27,7 +27,7 @@ function Header() {
   return (
     <Navbar expanded={navbarExpanded} onToggle={setNavbarExpanded} style={{ backgroundColor: 'black', color: 'white' }} expand="lg" className="navbar-cont">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <img
             src={logo}
             style={{ width: 100, backgroundColor: 'white' }}

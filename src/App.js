@@ -26,27 +26,25 @@ export default function App() {
           <Route path='/Top Car Towing Services in Andheri West' element={<Service />} />
           <Route path='/towing-services-near-andheri' element={<Contact />} />
           <Route path="/:slug" element={<Service />} />
-          <Route path='*' element={<Page404 />} /> {/* Catch-all route for 404 */}
-
+          <Route path='*' element={<Page404 />} /> 
         </Routes>
         <Footer />
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', right: '50px' }}>
           <div style={{ padding: 6, borderRadius: 50, display: 'inline-block' }}>
 
-          {/* <FaSquareWhatsapp style={{ backgroundColor: 'white', borderRadius: 10, }} size={50} color='#25D366' /> */}
-          <Link
-            to="https://wa.me/9820849090"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp size={50} color='green' />
-          </Link>
+            <Link
+              to="https://wa.me/9820849090"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp size={50} color='green' />
+            </Link>
           </div>
         </div>
         <div style={{ position: 'fixed', display: 'block', zIndex: '5', bottom: '10px', left: '50px', justifyContent: 'center', alignContent: 'center' }}>
           <div style={{ padding: 5, borderRadius: 50, display: 'inline-block' }}>
             <Link to={'tel:9820849090'}>
-            <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%', }} size={'2x'} color='#99ccff.' icon={faPhone} />
+              <FontAwesomeIcon style={{ width: 50, borderRadius: 10, height: '100%', }} size={'2x'} color='#99ccff.' icon={faPhone} />
 
             </Link>
           </div>
